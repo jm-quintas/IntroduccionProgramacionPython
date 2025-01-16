@@ -46,3 +46,21 @@ Un **intérprete** actua de un modo distinto, lee un programa escrito en un leng
 
 Por regla general, los intérpretes ejecutaran los programas más lentamente, pués al tiempo de ejecución del código de máquina se suma el que consume la traducción
 simultanea. Además, un compilador puede examinar el programa de alto nivel abarcando más de una instrucción cada vez, por lo que es capaz de producir mejores traducciones. Entre los lenguajes interpretados podemos citar Python, BASIC, Perl, Tcl, Ruby, Bash, Java o Lisp. Dentro de los lenguajes compilados mencionamos C, C#, Pascal, C++ o Fortran.
+
+## Python.
+
+Existen muchos otros lenguajes de programación, ***¿por qué aprender Python?*** Python presenta una serie de ventajas que lo hacen muy atractivo, tanto para su uso profesional como para el aprendizaje de la programación. Entre las más interesantes desde el punto de vista didáctico tenemos:  
+
+- ***Python es un lenguaje muy expresivo***, es decir, los programas Python son muy compactos: un programa Python suele ser bastante mas corto que su equivalente en lenguajes como C, (Python llega a ser considerado por muchos un lenguaje de programación de muy alto nivel.
+  
+- ***Python es muy legible***. La sintaxis de Python es muy elegante y permite la escritura de programas cuya lectura resulta mas fácil que si utilizáramos otros lenguajes de programación.
+
+- ***Python ofrece un entorno interactivo*** que facilita la realización de pruebas y ayuda a despejar dudas acerca de ciertas características del lenguaje.
+
+- El ***entorno de ejecución de Python detecta muchos de los errores*** de programación que escapan al control de los compiladores y proporciona información muy rica
+para detectarlos y corregirlos.
+
+- ***Python*** puede usarse como lenguaje ***imperativo procedimental*** o como ***lenguaje orientado a objetos***.
+
+- Posee un ***rico juego de estructuras de datos*** que se pueden manipular de modo sencillo.
+
