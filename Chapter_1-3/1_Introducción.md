@@ -7,3 +7,5 @@ El diccionario de la Real Academia define computador electrónico como ***Máqui
 
 1. La memoria.
 2. Algún dispositivo capaz de efectuar cálculos matemáticos y lógicos.
+
+La ***memoria*** es un gran almacenamiento de información. En la memoria almacenamos todo tipo de datos: valores numéricos, textos, imagenes, etc. El dispositivo encargado de efectuar operaciones matemáticas y lógicas, que recibe el nombre de ***Unidad Aritmético-Lógica (UAL)***, es como una calculadora capaz de trabajar con esos datos y producir, a partir de ellos, nuevos datos (el resultado de las operaciones). Otro dispositivo se encarga de transportar la información de la memoria a la UAL, de controlar a la UAL para que efectue las operaciones pertinentes y de depositar los resultados en la memoria: la ***Unidad de Control***. El conjunto que forman la Unidad de Control y la UAL se conoce por ***Unidad Central de Proceso (o CPU, del inglés ˂˂Central Processing Unit˃˃)***.
