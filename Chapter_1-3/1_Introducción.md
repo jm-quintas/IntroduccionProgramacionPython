@@ -1,7 +1,7 @@
 # Capítulo I.
 ## Introducción.
 
-## 1.1 Compotadoras.
+## Compotadoras.
 
 El diccionario de la Real Academia define computador electrónico como ***Máquina electrónica, analógica o digital, dotada de una memoria de gran capacidad y de métodos de tratamiento de la información, capaz de resolver problemas matemáticos y lógicos mediante la utilización automática de programas informáticos***. La propia definición nos da indicaciones acerca de algunos elementos básicos del computador:
 
@@ -14,7 +14,7 @@ La ***memoria*** es un gran almacenamiento de información. En la memoria almace
 
 Como se muestra en la imagen anterior, cada uno de los cajones que conforman la memoria recibe el nombre de celda (de memoria) y el número que lo identifica es su posición o dirección.
 
-## 1.3. Programas y lenguajes de programación.
+## Programas y lenguajes de programación.
 
 - **Programas:** es una secuencia de instrucciones. Las secuencias de instrucciones que el ordenador puede ejecutar reciben el nombre de programas en código de máquina, porque el lenguaje de programación en el que están expresadas recibe el nombre de código de máquina.
 
