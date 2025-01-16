@@ -16,4 +16,4 @@ Como se muestra en la imagen anterior, cada uno de los cajones que conforman la 
 
 ## 1.3. Programas y lenguajes de programación.
 
-- **Programas:** es una secuencia de instrucciones.
+- **Programas:** es una secuencia de instrucciones. Las secuencias de instrucciones que el ordenador puede ejecutar reciben el nombre de programas en código de máquina, porque el lenguaje de programación en el que están expresadas recibe el nombre de código de máquina.
