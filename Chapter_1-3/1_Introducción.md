@@ -13,3 +13,7 @@ La ***memoria*** es un gran almacenamiento de información. En la memoria almace
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/da768d836be47523ff964e2c47899129e90538e6/Chapter_1-3/Memoria_CPU.png)
 
 Como se muestra en la imagen anterior, cada uno de los cajones que conforman la memoria recibe el nombre de celda (de memoria) y el número que lo identifica es su posición o dirección.
+
+## 1.3. Programas y lenguajes de programación.
+
+- **Programas:** es una secuencia de instrucciones.
