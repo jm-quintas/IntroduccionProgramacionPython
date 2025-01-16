@@ -67,3 +67,11 @@ para detectarlos y corregirlos.
 Python ha sido diseñado por ***Guido van Rossum*** y está en un proceso de continuo desarrollo por una gran comunidad de desarrolladores. Aproximadamente cada seis meses
 se hace pública una nueva versión de Python. Una ventaja fundamental de Python es la gratuidad de su intérprete. Puedes descargar el intérprete de la pagina web [www.python.org](http://www.python.org). El intérprete de Python tiene versiones para prácticamente cualquier plataforma en uso: sistemas PC bajo Linux, sistemas PC bajo Microsoft Windows, sistemas Macintosh de Apple, etc.
 
+## Más allá de los programas: algoritmos.
+
+Dos programas que resuelven el mismo problema expresados en el mismo o en diferentes lenguajes de programación pero que siguen, en lo fundamental, el mismo procedimiento, son dos implementaciones del mismo algoritmo. Un algoritmo es, sencillamente, una secuencia de pasos orientada a la consecución de un objetivo. Cuando diseñamos un algoritmo podemos expresarlo en uno cualquiera de los númerosos lenguajes de programación de propósito general existentes. Sin embargo, ello resulta poco adecuado:
+
+- No todos los programadores conocen todos los lenguajes y no hay consenso acerca de cual es el más adecuado para expresar las soluciones a los diferentes problemas.
+- Cualquiera de los lenguajes de programación presenta particularidades que pueden interferir en una expresión clara y concisa de la solución a un problema.
+
+Podemos expresar los algoritmos en lenguaje natural, pues el objetivo es comunicar un procedimiento resolutivo a otras personas y, eventualmente, traducirlos a algún lenguaje de programación.
