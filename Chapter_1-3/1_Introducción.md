@@ -64,3 +64,6 @@ para detectarlos y corregirlos.
 
 - Posee un ***rico juego de estructuras de datos*** que se pueden manipular de modo sencillo.
 
+Python ha sido diseñado por ***Guido van Rossum*** y está en un proceso de continuo desarrollo por una gran comunidad de desarrolladores. Aproximadamente cada seis meses
+se hace pública una nueva versión de Python. Una ventaja fundamental de Python es la gratuidad de su intérprete. Puedes descargar el intérprete de la pagina web [](http://www.python.org). El intérprete de Python tiene versiones para prácticamente cualquier plataforma en uso: sistemas PC bajo Linux, sistemas PC bajo Microsoft Windows, sistemas Macintosh de Apple, etc.
+
