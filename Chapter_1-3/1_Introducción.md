@@ -19,3 +19,20 @@ Como se muestra en la imagen anterior, cada uno de los cajones que conforman la 
 - **Programas:** es una secuencia de instrucciones. Las secuencias de instrucciones que el ordenador puede ejecutar reciben el nombre de programas en código de máquina, porque el lenguaje de programación en el que están expresadas recibe el nombre de código de máquina.
 
 - **Un lenguaje de programación** es cualquier sistema de notación que permite expresar programas.
+
+### Lenguajes de programación de alto nivel.
+
+Estos lenguajes están diseñados para ser ***más cercanos al lenguaje humano que al código binario*** que las computadoras entienden directamente. Esto significa que son más fáciles de leer, escribir y mantener para los programadores.
+
+- **Características principales:**
+
+1. **Abstracción:** ocultan la complejidad del hardware, permitiendo a los programadores concentrarse en la lógica del programa.
+2. **Portabilidad:** el código escrito en un lenguaje de alto nivel puede, en general, ejecutarse en diferentes tipos de computadoras con pocas o ninguna modificación.
+3. **Facilidad de uso:** la sintaxis es más cercana al lenguaje natural, lo que facilita la escritura y comprensión del código.
+
+***¿Por qué usar lenguajes de alto nivel?***
+
+- **Mayor productividad:** al ser más fáciles de aprender y usar, los programadores pueden desarrollar software más rápido.
+- **Menor probabilidad de errores:** la sintaxis más clara reduce la posibilidad de errores de programación.
+- **Mejor mantenimiento:** el código es más fácil de entender y modificar, lo que facilita la evolución del software a lo largo del tiempo.
+
