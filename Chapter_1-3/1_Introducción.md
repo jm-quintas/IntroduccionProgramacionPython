@@ -36,3 +36,11 @@ Estos lenguajes están diseñados para ser ***más cercanos al lenguaje humano q
 - **Menor probabilidad de errores:** la sintaxis más clara reduce la posibilidad de errores de programación.
 - **Mejor mantenimiento:** el código es más fácil de entender y modificar, lo que facilita la evolución del software a lo largo del tiempo.
 
+### Compiladores e intérpretes.
+
+Los lenguajes de alto nivel se traducen automaticamente a código de máquina, pero has de saber que hay dos tipos diferentes de traductores dependiendo de su modo de funcionamiento: ***compiladores*** e ***intérpretes***.  
+
+Un **compilador** lee completamente un programa en un lenguaje de alto nivel y lo traduce en su integridad a un programa de código de maquina equivalente. El programa de código de maquina resultante se puede ejecutar cuantas veces se desee, sin necesidad de volver a traducir el programa original.  
+
+Un **intérprete** actua de un modo distinto, lee un programa escrito en un lenguaje de alto nivel instrucción a instrucción y, para cada una de ellas, efectua una traducción a las instrucciones de código de maquina equivalentes y las ejecuta inmediatamente. No hay un proceso de traducción separado por completo del de ejecución. Cada vez que ejecutamos el programa con un intérprete, se repite el proceso de traducción y ejecución, ya que ambos son simultaneos.
+
