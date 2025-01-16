@@ -74,4 +74,4 @@ Dos programas que resuelven el mismo problema expresados en el mismo o en difere
 - No todos los programadores conocen todos los lenguajes y no hay consenso acerca de cual es el más adecuado para expresar las soluciones a los diferentes problemas.
 - Cualquiera de los lenguajes de programación presenta particularidades que pueden interferir en una expresión clara y concisa de la solución a un problema.
 
-Podemos expresar los algoritmos en lenguaje natural, pues el objetivo es comunicar un procedimiento resolutivo a otras personas y, eventualmente, traducirlos a algún lenguaje de programación.
+Podemos expresar los algoritmos en lenguaje natural, pues el objetivo es comunicar un procedimiento resolutivo a otras personas y, eventualmente, traducirlos a algún lenguaje de programación. Los algoritmos son independientes del lenguaje de programación. Describen un procedimiento que puedes implementar en cualquier lenguaje de programación de propósito general o, incluso, que puedes ejecutar a mano con lapiz, papel y, quizás, la ayuda de una calculadora.
