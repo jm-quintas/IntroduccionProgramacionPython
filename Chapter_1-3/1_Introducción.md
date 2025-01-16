@@ -44,3 +44,5 @@ Un **compilador** lee completamente un programa en un lenguaje de alto nivel y l
 
 Un **intérprete** actua de un modo distinto, lee un programa escrito en un lenguaje de alto nivel instrucción a instrucción y, para cada una de ellas, efectua una traducción a las instrucciones de código de maquina equivalentes y las ejecuta inmediatamente. No hay un proceso de traducción separado por completo del de ejecución. Cada vez que ejecutamos el programa con un intérprete, se repite el proceso de traducción y ejecución, ya que ambos son simultaneos.
 
+Por regla general, los intérpretes ejecutaran los programas más lentamente, pués al tiempo de ejecución del código de máquina se suma el que consume la traducción
+simultanea. Además, un compilador puede examinar el programa de alto nivel abarcando más de una instrucción cada vez, por lo que es capaz de producir mejores traducciones. Entre los lenguajes interpretados podemos citar Python, BASIC, Perl, Tcl, Ruby, Bash, Java o Lisp. Dentro de los lenguajes compilados mencionamos C, C#, Pascal, C++ o Fortran.
