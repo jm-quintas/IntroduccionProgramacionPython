@@ -14,7 +14,7 @@ Los operadores aritméticos en Python son símbolos especiales que se utilizan p
 | % | Módulo (resto de la división) |
 | ** | Exponenciación |
 
-Probemos algunas expresiones formadas con estos dos operadores en el prompt (sesión interactiva en Python):
+Probemos algunas expresiones formadas con estos operadores en el prompt (sesión interactiva en Python):
 
 ```Python
 1 + 2 
