@@ -30,3 +30,6 @@ Resp: 6
 1 - 2 + 3
 Resp: 2
 ```
+
+Podemos introducir varias operaciones en una misma línea o expresión. El orden en que se efectuan las operaciones es (en principio) de izquierda a derecha. La expresión 1 - 2 + 3, por ejemplo, equivale matemáticamente a ((1 − 2) + 3); por ello decimos que la suma y la resta son operadores asociativos por la izquierda.
+
