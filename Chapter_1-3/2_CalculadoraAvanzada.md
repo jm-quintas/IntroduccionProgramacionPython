@@ -54,4 +54,4 @@ Resp: -4
 
 El árbol sintáctico de esta nueva expresión es:
 
-![]()
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/%C3%A1rbolSint%C3%A1ctico4.png)
