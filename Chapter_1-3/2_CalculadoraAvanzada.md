@@ -152,3 +152,8 @@ Resp: 8
 Pero, ¡ojo!, la exponenciación es asociativa por la derecha. La expresión 2 ** 3 ** 2 equivale a 2^(3^2) = 2^9 = 512, su árbol sintáctico es:
 
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/%C3%A1rbolSint%C3%A1ctico_11.png)
+
+Por otra parte, la exponenciación tiene mayor precedencia que cualquiera de los otros operadores presentados.
+
+La tabla 2.1 resume las características de los operadores Python: su aridad (número de operandos), asociatividad y precedencia.
+
