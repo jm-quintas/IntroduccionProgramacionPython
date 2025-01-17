@@ -83,4 +83,4 @@ Observa que estos operadores también son asociativos por la izquierda: la expre
 
 La expresión 12 / 3 * 2 equivale a ((12/3) · 2) = 12 / 3 · 2, o sea, su árbol sintáctico es:
 
-![]()
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/%C3%A1rbolSint%C3%A1ctico6.png)
