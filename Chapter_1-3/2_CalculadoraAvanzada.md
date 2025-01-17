@@ -125,3 +125,8 @@ Si los operadores siguen unas reglas de precedencia que determinan su orden de a
 como hacemos con la notación matemática convencional. La expresión 2 * (4 + 5), por ejemplo, presenta este arbol sintáctico:
 
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/%20%C3%A1rbolSint%C3%A1ctico_10.png)
+
+```Python
+2 * (4 + 5)
+Resp: 18
+```
