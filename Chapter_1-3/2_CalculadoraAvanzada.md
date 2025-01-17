@@ -40,3 +40,6 @@ El ***nodo superior de un árbol recibe el nombre de nodo raíz***. Los ***nodos
 La evaluación de cada operación individual en el árbol sintáctico ˂˂fluye˃˃ de las hojas hacia la raíz (el nodo superior); es decir, en primer lugar se evalua la subexpresión ˂˂1 - 2˃˃, que corresponde al subárbol más profundo. El resultado de la evaluación es −1:
 
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/%C3%A1rbolSint%C3%A1ctico2.png)
+
+A continuación se evalua la subexpresión que suma el resultado de evaluar ˂˂1 - 2˃˃ al valor 3:
+
