@@ -51,3 +51,7 @@ Así se obtiene el resultado final: el valor 2. Si deseamos calcular (1−(2+3))
 1 - (2 + 3)
 Resp: -4
 ```
+
+El árbol sintáctico de esta nueva expresión es:
+
+![]()
