@@ -106,3 +106,13 @@ El de 2 + 4 * 5 es:
 
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/%C3%A1rbolSint%C3%A1ctico8.png)
 
+Pero, ¡atención!, el cambio de signo tiene mayor prioridad que la multiplicación y la división:
+
+```Python
+-2 * 2
+Resp: -4
+```
+```Python
+--2 * 2
+Resp: 4
+```
