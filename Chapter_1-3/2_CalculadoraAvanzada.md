@@ -20,3 +20,8 @@ Probemos algunas expresiones formadas con estos operadores en el prompt (sesión
 1 + 2 
 Resp: 3
 ```
+
+```Python
+1 + 2 + 3
+Resp: 6
+```
