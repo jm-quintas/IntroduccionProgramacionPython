@@ -130,3 +130,14 @@ como hacemos con la notación matemática convencional. La expresión 2 * (4 + 5
 2 * (4 + 5)
 Resp: 18
 ```
+
+Existen más operadores en Python. Tenemos, por ejemplo, el operador módulo, que se denota con el símbolo de porcentaje % (aunque nada tiene que ver con el cálculo de porcentajes). El operador módulo devuelve el resto de la división entera entre dos operandos.
+
+```Python
+27 % 5
+Resp: 2
+```
+```Python
+27 % 5
+Resp: 0
+```
