@@ -5,3 +5,9 @@ Los operadores aritméticos en Python son símbolos especiales que se utilizan p
 | Operador | Descripción |
 | :------: | :------: |
 | + | Suma |
+| - | Resta |
+| * | Multiplicación |
+| / | División (solo resultados en punto flotante) |
+| // | división entera (Resultado redondeado hacia abajo) |
+| % | Módulo (resto de la división) |
+| ** | Exponenciación |
