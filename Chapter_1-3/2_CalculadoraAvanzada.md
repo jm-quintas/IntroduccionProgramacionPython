@@ -157,3 +157,4 @@ Por otra parte, la exponenciación tiene mayor precedencia que cualquiera de los
 
 La tabla 2.1 resume las características de los operadores Python: su aridad (número de operandos), asociatividad y precedencia.
 
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/tabla%202.1.png)
