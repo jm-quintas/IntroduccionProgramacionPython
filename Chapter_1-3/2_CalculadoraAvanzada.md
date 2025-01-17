@@ -103,3 +103,6 @@ prioritarios frente a los de suma y resta. Decimos que la multiplicación y la d
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/%C3%A1rbolSint%C3%A1ctico7.png)
 
 El de 2 + 4 * 5 es:
+
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/%C3%A1rbolSint%C3%A1ctico8.png)
+
