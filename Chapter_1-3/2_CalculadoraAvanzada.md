@@ -79,7 +79,7 @@ Resp: 8
 
 Observa que estos operadores también son asociativos por la izquierda: la expresión ˂˂3 * 4 / 2˃˃ equivale a ((3 · 4) / 2) = 3 · 4 / 2, es decir, tiene el siguiente árbol sintáctico:
 
-![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/%C3%A1rbolSint%C3%A1ctico5.png)
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/%C3%A1rbolSint%C3%A1ctico5.png)
 
 La expresión 12 / 3 * 2 equivale a ((12/3) · 2) = 12 / 3 · 2, o sea, su árbol sintáctico es:
 
