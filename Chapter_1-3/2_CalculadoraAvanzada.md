@@ -116,3 +116,6 @@ Resp: -4
 --2 * 2
 Resp: 4
 ```
+
+Los árboles sintácticos correspondientes a estas dos expresiones son, respectivamente:
+
