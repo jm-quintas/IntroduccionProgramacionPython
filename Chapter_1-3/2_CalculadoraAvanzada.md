@@ -141,3 +141,14 @@ Resp: 2
 27 % 5
 Resp: 0
 ```
+
+El operador % también es asociativo por la izquierda y su prioridad es la misma que la de la multiplicación o la división. El último operador que vamos a estudiar es la exponenciación, que se denota con dos asteriscos juntos, no separados por ningún espacio en blanco: **. Lo que en notación matemática convencional expresamos como 2^3 se expresa en Python con 2 ** 3.
+
+```Python
+2 ** 3
+Resp: 8
+```
+
+Pero, ¡ojo!, la exponenciación es asociativa por la derecha. La expresión 2 ** 3 ** 2 equivale a 2^(3^2) = 2^9 = 512, su árbol sintáctico es:
+
+![]()
