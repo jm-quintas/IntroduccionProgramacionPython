@@ -76,3 +76,5 @@ Resp: 6
 12 / 3 * 2
 Resp: 8
 ```
+
+Observa que estos operadores también son asociativos por la izquierda: la expresión ˂˂3 * 4 / 2˃˃ equivale a ((3 · 4) / 2) = 3 · 4 / 2, es decir, tiene el siguiente árbol sintáctico:
