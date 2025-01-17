@@ -13,3 +13,11 @@ Los operadores aritméticos en Python son símbolos especiales que se utilizan p
 | // | división entera (Resultado redondeado hacia abajo) |
 | % | Módulo (resto de la división) |
 | ** | Exponenciación |
+
+Probemos algunas expresiones formadas con estos dos operadores en el prompt (sesión interactiva en Python):
+
+python```
+>>> 1 + 2 
+3
+>>>
+```
