@@ -84,3 +84,15 @@ Observa que estos operadores también son asociativos por la izquierda: la expre
 La expresión 12 / 3 * 2 equivale a ((12/3) · 2) = 12 / 3 · 2, o sea, su árbol sintáctico es:
 
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/%C3%A1rbolSint%C3%A1ctico6.png)
+
+¿Qué pasa si combinamos en una misma expresión operadores de suma o resta con operadores de multiplicación o división? Fíjate en que la regla de aplicación de operadores
+de izquierda a derecha no siempre se observa:
+
+```Python
+2 * 4 + 5
+Resp: 13
+```
+```Python
+2 + 4 * 5
+Resp: 22
+```
