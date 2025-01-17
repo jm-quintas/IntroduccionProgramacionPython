@@ -43,3 +43,5 @@ La evaluación de cada operación individual en el árbol sintáctico ˂˂fluye�
 
 A continuación se evalua la subexpresión que suma el resultado de evaluar ˂˂1 - 2˃˃ al valor 3:
 
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/%C3%A1rbolSint%C3%A1ctico3.png)
+
