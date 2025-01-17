@@ -17,7 +17,6 @@ Los operadores aritméticos en Python son símbolos especiales que se utilizan p
 Probemos algunas expresiones formadas con estos dos operadores en el prompt (sesión interactiva en Python):
 
 python```
->>> 1 + 2 
+1 + 2 
 3
->>>
 ```
