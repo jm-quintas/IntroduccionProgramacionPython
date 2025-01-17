@@ -119,3 +119,5 @@ Resp: 4
 
 Los árboles sintácticos correspondientes a estas dos expresiones son, respectivamente:
 
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/%C3%A1rbolSint%C3%A1ctico9.png)
+
