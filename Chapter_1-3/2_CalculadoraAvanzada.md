@@ -151,4 +151,4 @@ Resp: 8
 
 Pero, ¡ojo!, la exponenciación es asociativa por la derecha. La expresión 2 ** 3 ** 2 equivale a 2^(3^2) = 2^9 = 512, su árbol sintáctico es:
 
-![]()
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/%C3%A1rbolSint%C3%A1ctico_11.png)
