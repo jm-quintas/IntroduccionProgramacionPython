@@ -18,5 +18,5 @@ Probemos algunas expresiones formadas con estos dos operadores en el prompt (ses
 
 ```Python
 1 + 2 
-3
+Resp: 3
 ```
