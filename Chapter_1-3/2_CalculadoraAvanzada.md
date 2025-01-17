@@ -100,5 +100,5 @@ Resp: 22
 En la segunda expresión, primero se ha efectuado el producto 4 * 5 y el resultado se ha sumado al valor 2. Ocurre que los operadores de multiplicación y división son
 prioritarios frente a los de suma y resta. Decimos que la multiplicación y la división tienen mayor nivel de precedencia o prioridad que la suma y la resta. El árbol sintáctico de (2 * 4 + 5) es:
 
-
+![]()
 
