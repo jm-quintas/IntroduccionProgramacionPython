@@ -37,3 +37,5 @@ Podemos introducir varias operaciones en una misma línea o expresión. El orden
 
 El ***nodo superior de un árbol recibe el nombre de nodo raíz***. Los ***nodos etiquetados con operadores (representados con círculos) se denominan nodos interiores***. Los ***nodos interiores tienen uno o más nodos hijo o descendientes*** (de los que ellos son sus respectivos nodos padre o ascendientes). Dichos nodos son nodos raíz de otros (sub)árboles sintácticos (¡la definición de árbol sintáctico es auto-referencial!). ***Los valores resultantes de evaluar las expresiones asociadas a dichos (sub)árboles constituyen los operandos de la operación que representa el nodo interior***. Los ***nodos sin descendientes se denominan nodos terminales u hojas (representados con cuadrados) y corresponden a valores numéricos***.
 
+La evaluación de cada operación individual en el árbol sintáctico ˂˂fluye˃˃ de las hojas hacia la raíz (el nodo superior); es decir, en primer lugar se evalua la subexpresión ˂˂1 - 2˃˃, que corresponde al subárbol más profundo. El resultado de la evaluación es −1:
+
