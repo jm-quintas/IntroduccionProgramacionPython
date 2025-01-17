@@ -54,7 +54,7 @@ Resp: -4
 
 El árbol sintáctico de esta nueva expresión es:
 
-![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/%C3%A1rbolSint%C3%A1ctico4.png)
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/%C3%A1rbolSint%C3%A1ctico4.png)
 
 En este nuevo árbol, la primera subexpresión evaluada es la que corresponde al subárbol derecho. Observa que en el árbol sintáctico no aparecen los paréntesis de la expresión. El árbol sintáctico ya indica el orden en que se procesan las diferentes operaciones y no necesita paréntesis. La expresión Python, sin embargo, necesita los paréntesis para indicar ese mismo orden de evaluación.
 
