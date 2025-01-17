@@ -63,13 +63,16 @@ Los operadores de multiplicación y división son, respectivamente, * y /:
 ```Python
 2 * 3
 Resp: 6
-
+```
+```Python
 4 / 2
 Resp: 2
-
+```
+```Python
 3 * 4 / 2
 Resp: 6
-
+```
+```Python
 12 / 3 * 2
 Resp: 8
 ```
