@@ -394,5 +394,7 @@ Dado que eres libre de llamar a una variable con el identificador que quieras, h
 ```Python
 x = 1.1
 polinomio = x ** 4 + x ** 3 + 2 * x ** 2 - x
+
+polinomio
 Resp: 4.115100000000002
 ```
