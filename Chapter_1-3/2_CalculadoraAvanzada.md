@@ -302,3 +302,22 @@ combinado con otros.
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/OperadoresL%C3%B3gicosComparaci%C3%B3n.png)
 
 Cuando aparece una sucesión de comparadores como, por ejemplo, 2 < 3 < 4, Python la evalúa igual qué (2 < 3) and (3 < 4). Esta solución permite expresar condiciones complejas de modo sencillo y, en casos como el de este ejemplo, se lee del mismo modo que se leería con la notación matemática habitual, lo cual parece deseable.
+
+```Python
+True == True != False
+Resp: True
+```
+```Python
+1 < 2 < 3 < 4 < 5
+Resp: True
+```
+```Python
+(1 < 2 < 3) and (4 < 5)
+Resp: True
+```
+```Python
+(1 < 2 < 4) and (3 < 5)
+Resp: True
+```
+
+## Variables y asignaciones.
