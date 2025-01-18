@@ -232,3 +232,22 @@ El operador **not** es unario, y proporciona el valor True si su operando es Fal
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/TablaVerdad_not.png)
 
 Podemos combinar valores lógicos y operadores lógicos para formar expresiones lógicas.
+
+```Python
+True and False
+Resp: False
+```
+
+```Python
+not True
+Resp: False
+```
+
+```Python
+True and True or False
+Resp: True
+```
+
+Precedencia de los operadores lógicos:
+
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/TablaPresedencia_OpLogicos.png)
