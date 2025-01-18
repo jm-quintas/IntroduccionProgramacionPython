@@ -250,4 +250,4 @@ Resp: True
 
 Precedencia de los operadores lógicos:
 
-![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/TablaPresedencia_OpLogicos.png)
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/TablaPrecedencia_OpLogicos.png)
