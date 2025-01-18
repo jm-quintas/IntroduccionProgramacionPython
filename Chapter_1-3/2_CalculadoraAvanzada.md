@@ -384,3 +384,5 @@ a = 2
 a * a
 Resp: 4
 ```
+
+El nombre de una variable es su identificador. Hay unas reglas precisas para construir identificadores. Si no se siguen, diremos que el identificador no es valido. Un identificador debe estar formado por letras minúsculas, mayúsculas, dígitos y/o el caracter de subrayado (_), con una restricción: que el primer caracter no sea un dígito. Hay una norma mas: un identificador no puede coincidir con una palabra reservada o palabra clave. Una palabra reservada es una palabra que tiene un significado predefinido y es necesaria para expresar ciertas construcciones del lenguaje. Aquí tienes una lista con todas las **palabras reservadas de Python: and, assert, break, class, continue, def, del, elif, else, except, exec, finally, for, from, global, if, import, in, is, lambda, not, or, pass, print, raise, return, try, while y yield**.
