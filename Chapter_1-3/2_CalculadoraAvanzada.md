@@ -186,3 +186,29 @@ Resp: 1.5
 ```
 Python sigue una regla sencilla: si hay datos de tipos distintos, el resultado es del tipo ***más general***. Los ***flotantes son de tipo más general*** que los enteros.
 
+## Problema 1. ¿Qué resultaré de evaluar las siguientes expresiones?
+
+```Python
+1 / 2 / 4.0
+Resp: 1.125
+```
+```Python
+1 / 2.0 / 4.0
+Resp: 1.125
+```
+```Python
+4 ** .5
+Resp: 2.0
+```
+```Python
+4.0 ** (1/2)
+Resp: 2.0
+```
+```Python
+4.0 ** (1.0 / 2) + 1 / 2.0
+Resp: 4.0
+```
+```Python
+3e3 / 10
+Resp: 300.0
+```
