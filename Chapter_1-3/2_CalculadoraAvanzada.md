@@ -221,4 +221,5 @@ Desde la versión 2.3, Python ofrece un tipo de datos especial que permite expre
 Hay tres operadores lógicos en Python: la ***y lógica o conjunción (and)***, la ***o lógica o disyunción (or)*** y el ***no lógico o negación (not)***.
 El operador and da como resultado el valor cierto si y sólo si son ciertos sus dos operandos. Esta es su tabla de verdad:
 
-![]()
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/TablaVerdad_and.png)
+
