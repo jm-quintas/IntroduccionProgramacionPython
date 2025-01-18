@@ -266,3 +266,11 @@ Resp: True
 2 == 1+1
 Resp: True
 ```
+
+Observa la última expresión evaluada: es posible combinar operadores de comparación y operadores aritméticos. No sólo eso, también podemos combinar en una misma expresión
+operadores lógicos, aritméticos y de comparación:
+
+```Python
+True or (2 == 1 + 2)) == True
+Resp: True
+```
