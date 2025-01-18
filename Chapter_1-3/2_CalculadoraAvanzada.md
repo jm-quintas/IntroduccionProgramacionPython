@@ -227,3 +227,6 @@ El operador **or** proporciona True si cualquiera de sus operandos es True, y Fa
 
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/TablaVerdad_or.png)
 
+El operador **not** es unario, y proporciona el valor True si su operando es False y viceversa. He aquí su tabla de verdad:
+
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/TablaVerdad_not.png)
