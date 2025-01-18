@@ -321,3 +321,14 @@ Resp: True
 ```
 
 ## Variables y asignaciones.
+
+En ocasiones deseamos que el ordenador recuerde ciertos valores para usarlos más adelante. Por ejemplo, supongamos que deseamos efectuar el cálculo del perímetro y el área de un círculo de radio 1.298373 m. La fórmula del perímetro es 2πr, donde r es el radio, y la fórmula del área es πr^2. (Apróximaremos el valor de π con 3.14159265359). Podemos realizar ambos cálculos del siguiente modo:
+
+```Python
+2 * 3.14159265359 * 1.298373
+Resp: 8.157918156839218
+```
+```Python
+3.14159265359 * 1.298373 ** 2
+Resp: 5.296010335524904
+```
