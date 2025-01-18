@@ -186,7 +186,7 @@ Resp: 1.5
 ```
 Python sigue una regla sencilla: si hay datos de tipos distintos, el resultado es del tipo ***más general***. Los ***flotantes son de tipo más general*** que los enteros.
 
-## Problema 1. ¿Qué resultará de evaluar las siguientes expresiones?
+### Problema 1. ¿Qué resultará de evaluar las siguientes expresiones?
 
 ```Python
 1 / 2 / 4.0
@@ -389,7 +389,7 @@ El nombre de una variable es su identificador. Hay unas reglas precisas para con
 
 Dado que eres libre de llamar a una variable con el identificador que quieras, hazlo con clase: escoge siempre nombres que guarden relación con los datos del problema. Si, por ejemplo, vas a utilizar una variable para almacenar una distancia, llama a la variable *distancia* y evita nombres que no signifiquen nada; de este modo, los programas serán más legibles.
 
-## Problema 2. Evalua el polinomio x^4 + x^3 + 2x^2 - x, en x = 1.1. Utiliza variables para evitar teclear varias veces el valor de x.
+### Problema 2. Evalua el polinomio x^4 + x^3 + 2x^2 - x, en x = 1.1. Utiliza variables para evitar teclear varias veces el valor de x.
 
 ```Python
 x = 1.1
