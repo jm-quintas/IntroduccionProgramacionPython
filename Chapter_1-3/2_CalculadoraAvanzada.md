@@ -251,3 +251,6 @@ Resp: True
 Precedencia de los operadores lógicos:
 
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/TablaPrecedencia_OpLogicos.png)
+
+Los ***operadores de comparación en Python se utilizan para comparar dos valores y determinar si una relación específica es verdadera o falsa***. Estos operadores devuelven un valor booleano, es decir, True (verdadero) o False (falso).
+
