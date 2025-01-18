@@ -363,3 +363,24 @@ perimetro = 2 * pi * r
 area = pi * r ** 2
 ```
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/variables2.png)
+
+La memoria se ha reservado correctamente, en ella se ha almacenado el valor correspondiente y la asociación entre la memoria y el nombre de la variable se ha establecido, pero no obtenemos respuesta alguna por pantalla. Debes tener en cuenta que las asignaciones son ***mudas***, es decir, no provocan salida por pantalla. Así pués, para asignar valor a una variable basta ejecutar una sentencia como ésta: ***variable = expresión***. El orden es importante. Hacer ***expresión = variable*** no es equivalente. Una asignación no es una ecuación matemática, sino una acción consistente en (por este orden):
+1. Evaluar la expresión a la derecha del símbolo igual (=).
+2. Guardar el valor resultante en la variable indicada a la izquierda del símbolo igual.
+
+Se puede asignar valor a una misma variable cuantas veces se quiera. El efecto es que la variable, en cada instante, sólo ***recuerda*** el último valor asignado. . . hasta que se le asigne otro.
+
+```Python
+a = 1
+2 * a
+Resp: 2
+```
+```Python
+a + 2
+Resp: 3
+```
+```Python
+a = 2
+a * a
+Resp: 4
+```
