@@ -278,3 +278,25 @@ Resp: True
 Presentamos todos los operadores de comparaciÓn en la tabla 2.3 y te mostramos algunos ejemplos de uso.
 
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/OperadoresComparaci%C3%B3n.png)
+
+```Python
+2 < 1
+Resp: False
+```
+```Python
+5 > 1
+Resp: True
+```
+```Python
+5 >= 1
+Resp: True
+```
+```Python
+1 != 0
+Resp: True
+```
+
+Es hora de que presentemos una tabla completa (tabla 2.4) con todos los operadores que conocemos para comparar entre sí la precedencia de cada uno de ellos cuando aparece
+combinado con otros.
+
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/OperadoresL%C3%B3gicosComparaci%C3%B3n.png)
