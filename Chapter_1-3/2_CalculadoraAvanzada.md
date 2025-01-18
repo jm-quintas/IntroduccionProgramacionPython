@@ -274,3 +274,7 @@ operadores lógicos, aritméticos y de comparación:
 True or (2 == 1 + 2)) == True
 Resp: True
 ```
+
+Presentamos todos los operadores de comparaciÓn en la tabla 2.3 y te mostramos algunos ejemplos de uso.
+
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/OperadoresComparaci%C3%B3n.png)
