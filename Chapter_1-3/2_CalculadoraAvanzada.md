@@ -389,7 +389,9 @@ El nombre de una variable es su identificador. Hay unas reglas precisas para con
 
 Dado que eres libre de llamar a una variable con el identificador que quieras, hazlo con clase: escoge siempre nombres que guarden relación con los datos del problema. Si, por ejemplo, vas a utilizar una variable para almacenar una distancia, llama a la variable *distancia* y evita nombres que no signifiquen nada; de este modo, los programas serán más legibles.
 
-### Problema 2. Evalua el polinomio x^4 + x^3 + 2x^2 - x, en x = 1.1. Utiliza variables para evitar teclear varias veces el valor de x.
+### Problema 2. Evalua los siguientes polinomios:
+
+- a) x^4 + x^3 + 2x^2 - x, en x = 1.1. Utiliza variables para evitar teclear varias veces el valor de x.
 
 ```Python
 x = 1.1
@@ -397,4 +399,14 @@ polinomio = x ** 4 + x ** 3 + 2 * x ** 2 - x
 
 polinomio
 Resp: 4.115100000000002
+```
+
+- b) x^4 + x^3 + (1/2)x^2 − x en x = 10. Asegúrate de que el resultado sea un número flotante.
+
+```Python
+x = 10
+poli = x ** 4 + x ** 3 + 0.5 * x ** 2 - x
+
+poli
+Resp: 11040.0
 ```
