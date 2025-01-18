@@ -391,7 +391,7 @@ Dado que eres libre de llamar a una variable con el identificador que quieras, h
 
 ### Problema 2. Evalua los siguientes polinomios:
 
-- a) x^{4} + x^3 + 2x^2 - x, en x = 1.1. Utiliza variables para evitar teclear varias veces el valor de x.
+- a) x^(4) + x^3 + 2x^2 - x, en x = 1.1. Utiliza variables para evitar teclear varias veces el valor de x.
 
 ```Python
 x = 1.1
