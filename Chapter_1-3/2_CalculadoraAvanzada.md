@@ -490,3 +490,19 @@ Resp: 8
 
 ## El tipo de datos cadena.
 
+Hasta el momento hemos visto que Python puede manipular datos numéricos de dos tipos:
+enteros y flotantes. Pero Python también puede manipular otros tipos de datos. Vamos a
+estudiar ahora el tipo de datos que se denomina cadena. Una ***cadena es una secuencia
+de caracteres (letras, números, espacios, marcas de puntuación, etc.) y en Python se
+distingue porque va encerrada entre comillas simples o dobles***. Las cadenas pueden usarse para representar información textual: nombres de personas, nombres de colores, matrículas de coche... Las cadenas también pueden almacenarse en variables.
+
+```Python
+nombre = 'pepe'
+nombre
+Resp: 'pepe'
+```
+```Python
+ciudad = "Maracaibo"
+ciudad
+Resp: 'Maracaibo'
+```
