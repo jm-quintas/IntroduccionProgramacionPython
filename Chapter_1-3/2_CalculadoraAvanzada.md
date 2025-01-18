@@ -225,4 +225,5 @@ El operador **and** da como resultado el valor cierto si y sólo si son ciertos 
 
 El operador **or** proporciona True si cualquiera de sus operandos es True, y False sólo cuando ambos operandos son Falses. Esta es su tabla de verdad:
 
-![]()
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/TablaVerdad_or.png)
+
