@@ -332,3 +332,19 @@ Resp: 8.157918156839218
 3.14159265359 * 1.298373 ** 2
 Resp: 5.296010335524904
 ```
+Observa que hemos tenido que introducir dos veces los valores de π y r por lo que, al tener tantos decimales, es muy fácil cometer errores. Para paliar este problema podemos utilizar variables:
+
+```Python
+pi = 3.14159265359
+r = 1.298373
+
+2 * pi * r
+Resp: 8.157899307283296
+```
+```Python
+pi = 3.14159265359
+r = 1.298373
+
+pi * r ** 2
+Resp: 5.295985861798707
+```
