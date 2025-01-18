@@ -487,3 +487,6 @@ z = 2
 z **= 3
 Resp: 8
 ```
+
+## El tipo de datos cadena.
+
