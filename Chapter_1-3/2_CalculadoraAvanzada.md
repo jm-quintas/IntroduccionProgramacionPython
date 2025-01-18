@@ -348,3 +348,7 @@ r = 1.298373
 pi * r ** 2
 Resp: 5.295985861798707
 ```
+
+En la primera línea hemos creado una variable de nombre pi y valor 3.14159265359. A continuación, hemos creado otra variable, r, y le hemos dado el valor 1.298373. El acto de dar valor a una variable se denomina ***asignación***. Al asignar un valor a una variable que no existía, Python reserva un espacio en la memoria, almacena el valor en él y crea una asociación entre el nombre de la variable y la dirección de memoria de dicho espacio. Podemos representar gráficamente el resultado de estas acciones así:
+
+![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/variables.png)
