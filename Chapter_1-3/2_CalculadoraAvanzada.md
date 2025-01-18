@@ -434,3 +434,56 @@ z %= 2
 
 z **= 2
 ```
+
+### Problema 3. ¿Qué resultará de ejecutar las siguientes sentencias?
+
+```Python
+z = 2
+z += 2
+Resp: 4
+```
+```Python
+z = 2
+z += 2 - 2
+Resp: 2
+```
+```Python
+Z = 2
+z *= 2
+Resp: 4
+```
+```Python
+z = 2
+z *= 1 + 1
+Resp: 4
+```
+```Python
+z = 2
+z /= 2
+Resp: 1.0
+```
+```Python
+z = 2
+z %= 3
+Resp: 2
+```
+```Python
+z = 2
+z /= 3 - 1
+Resp: 1.0
+```
+```Python
+z = 2
+z -= 2 + 1
+Resp: -1
+```
+```Python
+z = 2
+z -= 2
+Resp: 0
+```
+```Python
+z = 2
+z **= 3
+Resp: 8
+```
