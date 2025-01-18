@@ -419,4 +419,18 @@ Fíjate en la sentencia ***i = i + 1***: aplica un incremento unitario al conten
 i += 1
 ```
 
-No puede haber espacio alguno entre el + y el =.
+No puede haber espacio alguno entre el ***+*** y el ***=***. Todos los operadores aritméticos tienen su asignación con operador asociada.
+
+```Python
+z += 2
+
+z *= 2
+
+z /= 2
+
+z -= 2
+
+z %= 2
+
+z **= 2
+```
