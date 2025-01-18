@@ -401,7 +401,7 @@ polinomio
 Resp: 4.115100000000002
 ```
 
-- b) <sup>x^4</sup> + x^3 + (1/2)x^2 − x en x = 10. Asegúrate de que el resultado sea un número flotante.
+- b) x^4 + x^3 + (1/2)x^2 − x en x = 10. Asegúrate de que el resultado sea un número flotante.
 
 ```Python
 x = 10
