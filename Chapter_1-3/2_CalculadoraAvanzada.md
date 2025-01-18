@@ -217,3 +217,8 @@ Resp: 300.0
 Desde la versión 2.3, Python ofrece un tipo de datos especial que permite expresar sólo dos valores: cierto y falso. El ***valor cierto se expresa con True*** y el ***valor falso con False***. Son los valores lógicos o booleanos. Este último nombre deriva del nombre de un matemático, Boole, que desarrolló un sistema algebraico basado en estos dos valores y tres operaciones: la conjunción, la disyunción y la negación. Python ofrece soporte para estas operaciones con los operadores lógicos.
 
 ### Operadores lógicos y de comparación.
+
+Hay tres operadores lógicos en Python: la ***y lógica o conjunción (and)***, la ***o lógica o disyunción (or)*** y el ***no lógico o negación (not)***.
+El operador and da como resultado el valor cierto si y sólo si son ciertos sus dos operandos. Esta es su tabla de verdad:
+
+![]()
