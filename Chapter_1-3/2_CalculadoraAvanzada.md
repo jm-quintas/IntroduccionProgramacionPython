@@ -158,3 +158,25 @@ Por otra parte, la exponenciación tiene mayor precedencia que cualquiera de los
 La tabla 2.1 resume las características de los operadores Python: su aridad (número de operandos), asociatividad y precedencia.
 
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/tabla%202.1.png)
+
+## Tipos de datos.
+
+### Enteros y flotantes.
+
+Cada valor utilizado por Python es de un tipo determinado. Hasta el momento sólo hemos utilizado datos de tipo entero, es decir, sin decimales. Cuando se efectua una operación, Python tiene en cuenta el tipo de los operandos a la hora de producir el resultado. Si los dos operandos son de tipo entero, el resultado también es de tipo entero, así que la división entera entre los enteros 3 y 2 produce el valor entero 1. Si deseamos obtener resultados de tipo real, deberemos usar operandos reales. Los
+operandos reales deben llevar, en principio, una parte decimal, aunque ésta sea nula.
+
+```Python
+3.0 / 2.0
+Resp: 1.5
+```
+
+Hay diferencias entre enteros y reales en Python más allá de que los primeros no tengan decimales y los segundos sí. El número 3 y el número 3.0, por ejemplo, son indistinguibles en matemáticas, pero sí son diferentes en Python. ¿Qué diferencias hay? 
+- Los enteros suelen ocupar menos memoria.
+- Las operaciones entre enteros son, generalmente, más rápidas.
+
+Hemos de precisar algo respecto a la denominación de los números con decimales: el término ***reales*** no es adecuado, ya que induce a pensar en los números reales de las matemáticas. En matemáticas, los números reales pueden presentar infinitos decimales, y eso es imposible en un computador. Al trabajar con computadores tendremos que conformarnos con meras aproximaciones a los números reales. Recuerda que todo en el computador son secuencias de ceros y unos. Deberemos, pués, representar internamente con ellos las aproximaciones a los números reales. Para facilitar el intercambio de datos, todos los computadores convencionales utilizan una misma codificación, es decir, representan del mismo modo las aproximaciones a los números reales. Esta codificación se conoce como ***IEEE Standard 754 floating point*** (que se puede traducir por ***Estandar IEEE 754 para coma flotante***), así que llamaremos números en formato de coma flotante o simplemente flotantes a los números con decimales que podemos representar con el ordenador.  
+
+Un número flotante debe especificarse siguiendo ciertas reglas. En principio, consta de dos partes: mantisa y exponente. El exponente se separa de la mantisa con la letra
+˂˂e˃˃ (o ˂˂E˃˃). Por ejemplo, el número flotante 2e3 (o 2E3) tiene mantisa 2 y exponente 3, y representa al número 2 · 10^3, es decir, 2000. El exponente puede ser negativo: 3.2e-3 es 3.2·10^−3 , o sea, 0.0032. Ten en cuenta que si un número flotante no lleva exponente debe llevar parte fraccionaria. Un par de reglas mas: si la parte entera del número es nula, el flotante puede empezar directamente con un punto, y si la parte fraccionaria es nula, puede acabar con un punto. Veamos un par de ejemplos: el número 0.1 se puede escribir también como .1; por otra parte, el número 2.0 puede escribirse como 2., es decir, en ambos casos el cero es opcional.
+
