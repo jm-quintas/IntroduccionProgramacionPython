@@ -410,3 +410,13 @@ poli = x ** 4 + x ** 3 + 0.5 * x ** 2 - x
 poli
 Resp: 11040.0
 ```
+
+## Asignaciones con operador.
+
+Fíjate en la sentencia ***i = i + 1***: aplica un incremento unitario al contenido de la variable ***i***. Incrementar el valor de una variable en una cantidad cualquiera es tan frecuente que existe una forma compacta en Python. El incremento de ***i*** puede denotarse así:
+
+```Python
+i += 1
+```
+
+No puede haber espacio alguno entre el + y el =.
