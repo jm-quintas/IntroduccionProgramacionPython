@@ -215,3 +215,5 @@ Resp: 300.0
 
 ## Valores lógicos.
 Desde la versión 2.3, Python ofrece un tipo de datos especial que permite expresar sólo dos valores: cierto y falso. El ***valor cierto se expresa con True*** y el ***valor falso con False***. Son los valores lógicos o booleanos. Este último nombre deriva del nombre de un matemático, Boole, que desarrolló un sistema algebraico basado en estos dos valores y tres operaciones: la conjunción, la disyunción y la negación. Python ofrece soporte para estas operaciones con los operadores lógicos.
+
+### Operadores lógicos y de comparación.
