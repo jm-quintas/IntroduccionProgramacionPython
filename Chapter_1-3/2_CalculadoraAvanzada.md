@@ -252,5 +252,14 @@ Precedencia de los operadores lógicos:
 
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_1-3/img/TablaPrecedencia_OpLogicos.png)
 
-Los ***operadores de comparación en Python se utilizan para comparar dos valores y determinar si una relación específica es verdadera o falsa***. Estos operadores devuelven un valor booleano, es decir, True (verdadero) o False (falso).
+Hay una familia de operadores que devuelven valores booleanos. Entre ellos tenemos a los operadores de comparación, que estudiamos en este apartado. Uno de ellos es el operador de igualdad, que devuelve True si los valores comparados son iguales. El operador de igualdad se denota con dos iguales seguidos: ==.
+
+```Python
+2 == 3
+Resp: False
+```
+```Python
+2 == 2
+Resp: True
+```
 
