@@ -262,4 +262,7 @@ Resp: False
 2 == 2
 Resp: True
 ```
-
+```Python
+2 == 1+1
+Resp: True
+```
