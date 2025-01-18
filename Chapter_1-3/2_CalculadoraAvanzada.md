@@ -186,7 +186,7 @@ Resp: 1.5
 ```
 Python sigue una regla sencilla: si hay datos de tipos distintos, el resultado es del tipo ***más general***. Los ***flotantes son de tipo más general*** que los enteros.
 
-## Problema 1. ¿Qué resultaré de evaluar las siguientes expresiones?
+## Problema 1. ¿Qué resultará de evaluar las siguientes expresiones?
 
 ```Python
 1 / 2 / 4.0
