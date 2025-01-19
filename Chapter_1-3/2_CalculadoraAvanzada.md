@@ -558,3 +558,10 @@ La función inversa (la que pasa un número a su carácter equivalente) es chr.
 chr(97)
 Resp: 'a'
 ```
+
+La tabla ***ASCII*** presenta un problema cuando queremos ordenar palabras: las letras
+mayúsculas tienen un valor numérico inferior a las letras minúsculas (por lo que 'Zapata'
+precede a 'ajo') y las letras acentuadas son siempre **mayores** que sus equivalentes sin
+acentuar ('abanico' es menor que 'ábaco'). Hay formas de configurar el sistema operativo
+para que tenga en cuenta los criterios de ordenación propios de cada lengua al efectuar
+comparaciones.
