@@ -506,3 +506,36 @@ ciudad = "Maracaibo"
 ciudad
 Resp: 'Maracaibo'
 ```
+
+Es posible realizar operaciones con cadenas. Por ejemplo, podemos ***sumar*** cadenas
+añadiendo una a otra.
+
+```Python
+'a' + 'b'
+Resp: 'ab'
+```
+```Python
+nombre = 'pepe'
+nombre += 'cano'
+nombre
+Resp: 'pepecano'
+```
+```Python
+nombre = 'pepe'
+nombre + ' ' + 'cano'
+Resp: 'pepe cano'
+```
+
+Hablando con propiedad, esta operación no se llama suma, sino concatenación. El
+símbolo utilizado es +, el mismo que usamos cuando sumamos enteros y/o flotantes; pero aunque el símbolo sea el mismo, ten en cuenta que no es igual sumar números que concatenar cadenas:
+
+```Python
+'12' + '12'
+Resp: 1212
+```
+```Python
+12 + 12
+Resp: 24
+```
+
+Sumar o concatenar una cadena y un valor numérico (entero o flotante) produce un error.
