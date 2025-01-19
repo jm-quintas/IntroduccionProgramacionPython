@@ -538,4 +538,9 @@ Resp: 1212
 Resp: 24
 ```
 
-Sumar o concatenar una cadena y un valor numérico (entero o flotante) produce un error.
+Sumar o concatenar una cadena y un valor numérico (entero o flotante) produce un error. Y para acabar, hay un operador de repetición de cadenas. El símbolo que lo denota es *, el mismo que hemos usado para multiplicar enteros y/o flotantes. El operador de repetición necesita dos datos: uno de tipo cadena y otro de tipo entero. El resultado es la concatenación de la cadena consigo misma tantas veces como indique el número entero:
+
+```Python
+'hola' * 5
+Resp: 'holaholaholaholahola'
+```
