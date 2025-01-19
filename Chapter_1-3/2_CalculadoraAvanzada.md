@@ -544,3 +544,17 @@ Sumar o concatenar una cadena y un valor numérico (entero o flotante) produce u
 'hola' * 5
 Resp: 'holaholaholaholahola'
 ```
+
+El concepto de comparación entre números te resulta familiar porque lo has estudiado antes en matemáticas. Python extiende el concepto de comparación a otros tipos de datos, como las cadenas. En el caso de los operadores == y != el significado esta claro: dos cadenas son iguales si son iguales carácter a carácter, y distintas en caso contrario. Pero, ¿qué significa que una cadena sea menor que otra? Python utiliza un criterio de comparación de cadenas muy natural: el orden alfabético. En principio, una cadena es menor que otra si la precede al disponerlas en un diccionario. ¿Y cómo se comparan cadenas con caracteres no alfabéticos? Python utiliza los códigos ASCII de los caracteres para decidir su orden alfabético Para conocer el valor numérico que corresponde a un carácter, puedes utilizar la función predefinida ***ord***, a la que le has de pasar el carácter en cuestión como argumento.
+
+```Python
+ord('a')
+Resp: 97
+```
+
+La función inversa (la que pasa un número a su carácter equivalente) es chr.
+
+```Python
+chr(97)
+Resp: 'a'
+```
