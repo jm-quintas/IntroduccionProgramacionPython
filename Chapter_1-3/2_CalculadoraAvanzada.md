@@ -565,3 +565,34 @@ precede a 'ajo') y las letras acentuadas son siempre **mayores** que sus equival
 acentuar ('abanico' es menor que 'ábaco'). Hay formas de configurar el sistema operativo
 para que tenga en cuenta los criterios de ordenación propios de cada lengua al efectuar
 comparaciones.
+
+### Problema. ¿Qué resultados se muestran al evaluar estas expresiones?
+
+```Python
+'abalorico' < 'abecedario'
+Resp: True
+```
+```Python
+'abecedario' < 'abecedario'
+Resp: False
+```
+
+```Python
+'abecedario' <= 'abecedario'
+Resp: True
+```
+
+```Python
+'Abecedario' == 'Abecedario'
+Resp: True
+```
+
+```Python
+124 < 13
+Resp: False
+```
+
+```Python
+'124' < '13'
+Resp: True
+```
