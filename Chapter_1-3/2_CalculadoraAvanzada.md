@@ -772,3 +772,15 @@ from math import cos
 cos(1)
 Resp: 0.5403023058681398
 ```
+En una misma sentencia podemos importar más de una función. Basta con separar sus nombres con comas:
+
+```Python
+from math import sin, cos
+```
+
+Puede resultar tedioso importar un gran número de funciones y variables de un módulo. Python ofrece un atajo: si ***utilizamos un asterisco, se importan todos los elementos*** de un módulo. Para importar todas las funciones del módulo math escribimos:
+
+```Python
+from math import *
+```
+
