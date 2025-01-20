@@ -596,3 +596,58 @@ Resp: False
 '124' < '13'
 Resp: True
 ```
+
+## Funciones predefinidas.
+
+Hemos estudiado los operadores aritméticos basicos. Python también proporciona funciones que podemos utilizar en las expresiones. Estas funciones se dice que están predefinidas. La función ***abs***, por ejemplo, calcula el valor absoluto de un número. Podemos usarla como en estas expresiones:  
+
+```Python
+abs(-3)
+Resp: 3
+```
+```Python
+abs(3)
+Resp: 3
+```
+
+El número sobre el que se aplica la función se denomina argumento. Observa que el argumento de la función debe ir encerrado entre paréntesis. Existen muchas funciones predefinidas, pero es pronto para aprenderlas todas. Te resumimos algunas que ya puedes utilizar:
+
+- ***float:*** conversión a flotante. Si recibe un número entero como argumento, devuelve el mismo número convertido en un flotante equivalente.
+
+```Python
+float(3)
+Resp: 3.0
+```
+
+La función ***float*** también acepta argumentos de tipo cadena. Cuando se le pasa una cadena, ***float*** la convierte en el número flotante que ésta representa:
+
+```Python
+float('3.2')
+Resp: 3.2
+```
+```Python
+float('3.2e10')
+Resp: 32000000000.0
+```
+
+Pero si la cadena no representa un flotante, se produce un error de tipo ValueError, es decir, ***error de valor***. Si ***float*** recibe un argumento flotante, devuelve el mismo valor que se suministra como argumento.
+
+- ***int***: conversión a entero. Si recibe un número flotante como argumento, devuelve el entero que se obtiene eliminando la parte fraccionaria.
+
+```Python
+int(2.1)
+Resp: 2
+```
+```Python
+int(-2.9)
+Resp: -2
+```
+
+También la función ***int*** acepta como argumento una cadena:
+
+```Python
+int('2')
+Resp: 2
+```
+
+Si ***int*** recibe un argumento entero, devuelve el argumento tal cual.
