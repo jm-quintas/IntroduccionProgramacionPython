@@ -789,3 +789,8 @@ Así de fácil. De todos modos, no resulta muy aconsejable por dos razones:
 - Al importar elemento a elemento, el programa gana en legibilidad, pués sabemos de donde proviene cada identificador.
 
 - Si hemos definido una variable con un nombre determinado y dicho nombre coincide con el de una función definida en un módulo, nuestra variable será sustituida por la  función. Si no sabes todos los elementos que define un módulo, es posible que esta coincidencia de nombre tenga lugar, te pase inadvertida inicialmente y te lleves una sorpresa cuando intentes usar la variable.
+
+Te presentamos algunas de las funciones que encontrarás en el módulo matemático:
+
+| Módulo | Descripción |
+| :----: | :----: |
