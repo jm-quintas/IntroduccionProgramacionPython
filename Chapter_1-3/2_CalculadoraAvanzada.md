@@ -739,3 +739,10 @@ Resp: '5'
 str(int(21)) + float(3))
 Resp: SyntaxError: unmatched ')'
 ```
+
+## Funciones definidas en módulos.
+
+Python también proporciona funciones trigonométricas, logaritmos, etc., pero no están directamente disponibles cuando iniciamos una sesión. Antes de utilizarlas hemos de
+indicar a Python que vamos a hacerlo. Para ello, importamos cada función de un módulo.
+
+- **El módulo** ***math***.
