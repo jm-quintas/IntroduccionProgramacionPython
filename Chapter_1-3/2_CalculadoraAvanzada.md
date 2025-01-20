@@ -746,3 +746,29 @@ Python también proporciona funciones trigonométricas, logaritmos, etc., pero n
 indicar a Python que vamos a hacerlo. Para ello, importamos cada función de un módulo.
 
 - **El módulo** ***math***.
+
+Empezaremos por importar la función ***seno*** (***sin***, del inglés sinus) del módulo matemático (***math***):
+
+```Python
+from math import sin
+```
+Ahora podemos utilizar la función en nuestros calculos:
+
+```Python
+from math import sin
+sin(0)
+Resp: 0.0
+```
+```Python
+from math import sin
+sin(1)
+Resp: 0.8414709848078965
+```
+
+Observa que el argumento de la función seno debe expresarse en radianes. Inicialmente Python no sabe calcular la función seno. Cuando importamos una función, Python aprende su definición y nos permite utilizarla. Las definiciones de funciones residen en módulos. Las funciones trigonométricas residen en el módulo matemático. Importemos del módulo matemático la función coseno:
+
+```Python
+from math import cos
+cos(1)
+Resp: 0.5403023058681398
+```
