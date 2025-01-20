@@ -651,3 +651,53 @@ Resp: 2
 ```
 
 Si ***int*** recibe un argumento entero, devuelve el argumento tal cual.
+
+- ***str***: conversión a cadena. Recibe un número y devuelve una representación de éste como cadena.
+
+```Python
+str(2.1)
+Resp: '2.1'
+```
+```Python
+str(234E47)
+Resp: '2.34e+49'
+```
+
+La función str también puede recibir como argumento una cadena, pero en ese caso devuelve como resultado la misma cadena.
+
+- ***round***: redondeo. Puede usarse con uno o dos argumentos. Si se usa con un sólo argumento, toma un número de punto flotante como entrada y devuelve un entero redondeado al número más cercano.
+
+```Python
+round(2.1)
+Resp: 2
+```
+```Python
+round(2.9)
+Resp: 3
+```
+```Python
+round(-2.9)
+Resp: -3
+```
+
+Si ***round*** recibe dos argumentos,  éstos deben ir separados por una coma y el segundo indica el número de decimales que deseamos conservar tras el redondeo.
+
+```Python
+round(2.1451, 2)
+Resp: 2.15
+```
+```Python
+round(2.1451, 3)
+Resp: 2.145
+```
+```Python
+round(2.1451, 0)
+Resp: 2.0
+```
+
+Estas funciones (y las que estudiaremos más adelante) pueden formar parte de expresiones y sus argumentos pueden, a su vez, ser expresiones.
+
+```Python
+abs(round(-34.2764, 1))
+Resp: 34.3
+```
