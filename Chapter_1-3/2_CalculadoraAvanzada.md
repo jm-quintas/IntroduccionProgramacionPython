@@ -701,3 +701,41 @@ Estas funciones (y las que estudiaremos más adelante) pueden formar parte de ex
 abs(round(-34.2764, 1))
 Resp: 34.3
 ```
+
+### Problemas.
+
+1. Calcula con una única expresión el valor absoluto del redondeo de −3.2. (El resultado es 3).
+```Python
+abs(round(-3.2))
+Resp: 3
+```
+2. Convierte (en una unica expresión) a una cadena el resultado de la división 5011/10000 redondeado con 3 decimales.
+```Python
+str(round(5011/10000, 3))
+Resp: '0.501'
+```
+3. ¿Qué resulta de evaluar estas expresiones?
+```Python
+str(21) + str(1.2)
+Resp: '211.2'
+```
+```Python
+int(str(2) + str(3))
+Resp: ValueError: invalid literal for int() with base 10: '21.2'
+```
+```Python
+str(int(12.3)) + '0'
+Resp: '120'
+```
+```Python
+int('2' + '3')
+Resp: 23
+```
+```Python
+str(2 + 3)
+Resp: '5'
+```
+```Python
+str(int(21)) + float(3))
+Resp: SyntaxError: unmatched ')'
+```
