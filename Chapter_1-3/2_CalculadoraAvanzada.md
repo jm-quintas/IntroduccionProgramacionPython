@@ -804,3 +804,12 @@ Te presentamos algunas de las funciones que encontrarás en el módulo matemáti
 | log10(x) | Logaritmo decimal (en base 10) de x |
 | sqrt(x) | Raíz cuadrada de x (del inglés ***square root***) |
 
+En el módulo matemático se definen, además, algunas constantes de interés:
+
+```Python
+from math import pi, e
+pi
+Resp: 3.141592653589793
+e
+Resp: 2.718281828459045
+```
