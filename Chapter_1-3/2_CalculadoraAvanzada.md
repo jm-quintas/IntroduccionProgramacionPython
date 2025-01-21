@@ -794,3 +794,13 @@ Te presentamos algunas de las funciones que encontrarás en el módulo matemáti
 
 | Módulo | Descripción |
 | :----: | :----: |
+| sin(x) | Seno de x, que debe estar expresado en radianes |
+| cos(x) | Coseno de x, que debe estar expresado en radianes |
+| tan(x) | Tangente de x, que debe estar expresado en radianes |
+| exp(x) | El número *e* elevado a x |
+| ceil(x) | Redondeo hacia arriba de x (en inglés, ***ceiling*** significa techo) |
+| floor(x) | Redondeo hacia abajo de x (en inglés, ***floor*** significa suelo) |
+| log(x) | Logaritmo natural (en base e) de x |
+| log10(x) | Logaritmo decimal (en base 10) de x |
+| sqrt(x) | Raíz cuadrada de x (del inglés ***square root***) |
+
