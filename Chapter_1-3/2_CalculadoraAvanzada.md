@@ -813,3 +813,33 @@ Resp: 3.141592653589793
 e
 Resp: 2.718281828459045
 ```
+
+## Problemas. ¿Qué resultados se obtendran al evaluar las siguientes expresiones Python?
+
+1. int(exp(2*log(3)))
+```Python
+from math import exp, log
+int(exp(2*log(3)))
+Resp: 9
+```
+
+2. round(4*sin(3*pi/2))
+```Python
+from math import sin, pi
+round(4*sin(3*pi/2))
+Resp: -4
+```
+
+3. abs(log10(.01)*sqrt(25))
+```Python
+from math import log10, sqrt
+abs(log10(.01)*sqrt(25))
+Resp: 10
+```
+
+4. round(3.21123*log10(1000), 3)
+```Python
+from math import log10
+round(3.21123*log10(1000), 3)
+Resp: 9.634
+```
