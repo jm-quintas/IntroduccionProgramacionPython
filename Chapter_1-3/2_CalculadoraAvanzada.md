@@ -843,3 +843,49 @@ from math import log10
 round(3.21123*log10(1000), 3)
 Resp: 9.634
 ```
+
+## Métodos.
+
+Los datos de ciertos tipos permiten invocar unas funciones especiales: los denominados **métodos**. De los que ya conocemos, sólo las cadenas permiten invocar métodos sobre ellas. Un método permite, por ejemplo, obtener una versión en minúsculas de la cadena sobre la que se invoca.
+
+```Python
+cadena = 'Un EJEMPLO de Cadena'
+cadena.lower()
+Resp: 'un ejemplo de cadena'
+```
+```Python
+'OTRO EJEMPLO'.lower()
+Resp: 'otro ejemplo'
+```
+
+La sintaxis es diferente de la propia de una llamada a función convencional. Lo primero que aparece es el propio objeto sobre el se efectua la llamada. El nombre del método se separa del objeto con un punto. Los paréntesis abierto y cerrado al final son obligatorios. Existe otro método, upper (***uppercase***), en inglés, significa (***mayúsculas***), que pasa todos los caracteres a mayúsculas.
+
+```Python
+'Otro ejemplo'.upper()
+Resp: 'OTRO EJEMPLO'
+```
+Y otro, ***title*** que pasa la inicial de cada palabra a mayúsculas. Te preguntarás para qué puede valer esta última función. Imagina que has hecho un programa de recogida de datos que confecciona un censo de personas y que cada individuo introduce personalmente su nombre en el ordenador. Es muy probable que algunos utilicen sólo mayúsculas y otros mayúsculas y minúsculas. Si aplicamos ***title*** a cada uno de los nombres, todos acabarán en un formato único.
+
+```Python
+'PEDRO F. MAS'.title()
+Resp: 'Pedro F. Mas'
+```
+```Python
+'Juan CANO'.title()
+Resp: 'Juan Cano'
+```
+
+Algunos métodos aceptan parámetros. El método ***replace***, por ejemplo, recibe como argumento dos cadenas: un patrón y un reemplazo. El método busca el patrón en la
+cadena sobre la que se invoca el método y sustituye todas sus apariciones por la cadena de reemplazo. El método busca el patrón en la cadena sobre la que se invoca el método y sustituye todas sus apariciones por la cadena de reemplazo.
+
+```Python
+'un pequeño ejemplo'.replace('pequeño', 'gran')
+Resp: 'un gran ejemplo'
+```
+```Python
+una_cadena = 'abc'.replace('b','-')
+una_cadena
+Resp: 'a-c'
+```
+
+Conforme vayamos presentando nuevos tipos de datos y profundizando en nuestro conocimiento de las cadenas, iremos conociendo nuevos métodos.
