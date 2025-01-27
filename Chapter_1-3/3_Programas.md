@@ -98,3 +98,21 @@ print(volumen)
 ```
 Resp: 4.1887902047863905
 ```
+
+Si deseas calcular ahora el volumen de una esfera de 3 metros de radio, debes editar el fichero que contiene el programa, yendo a la tercera línea y cambiandola para que el programa pase a ser éste:
+
+```Python
+from math import pi
+
+radio = 3
+volumen = (4/3) * pi * radio**3
+
+print(volumen)
+```
+```
+Resp: 113.09733552923254
+```
+
+Y si ahora quieres calcular el volumen para otro radio, vuelta a empezar: abre el fichero con el editor de texto, ve a la tercera línea, modifica el valor del radio y guarda el fichero.
+
+
