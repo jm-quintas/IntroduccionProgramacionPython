@@ -32,3 +32,5 @@ Resp: 6.283185307179586
 ```
 
 Si ejecutas ahora el programa aparecerá el resultado en la términal del cuadro inferior. En ese cuadro aparece la salida de toda sentencia ***print***.
+
+Diseña un programa que, a partir del valor del lado de un cuadrado (3 metros), muestre el valor de su perímetro (en metros) y el de su área (en metros cuadrados).
