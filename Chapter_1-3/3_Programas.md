@@ -81,4 +81,20 @@ Resp: El área es: 24 metros cuadrado.
 
 ## Ejecución de programas desde la línea de ordenes Unix.
 
-Una vez has escrito un programa es posible ejecutarlo directamente, sin entrar en el entorno ***Visual Studio Code***. Si invocas al intérprete python seguido del nombre de un fichero desde la línea de ordenes Unix, no se iniciara una sesión con el intérprete interactivo, sino que se ejecutará el programa contenido en el fichero en cuestión. Por ejemplo, si ejecutamos la orden ***python nombre_programa.py*** en la línea de ordenes nos mostrará el resultado del programa ejecutado sin abrir el entorno interactivo.
+Una vez has escrito un programa es posible ejecutarlo directamente, sin entrar en el entorno ***Visual Studio Code***. Si invocas al intérprete python seguido del nombre de un fichero desde la línea de ordenes Unix, no se iniciara una sesión con el intérprete interactivo, sino que se ejecutará el programa contenido en el fichero en cuestión. Por ejemplo, si ejecutamos la orden ***python nombre_programa.py*** en la línea de ordenes nos mostrará el resultado del programa ejecutado sin abrir el entorno interactivo. A continuación volverá aparecer el ***prompt*** del intérprete de ordenes Unix pidiendonos nuevas órdenes.
+
+## Entrada / Salida.
+
+Los programas que hemos visto en la sección anterior adolecen de un serio inconveniente: cada vez que quieras obtener resultados para unos datos diferentes deberas editar el fichero de texto que contiene el programa. Por ejemplo, el siguiente programa calcula el volumen de una esfera a partir de su radio, que es de un metro:
+
+```Python
+from math import pi
+
+radio = 1
+volumen = (4/3) * pi * radio**3
+
+print(volumen)
+```
+```
+Resp: 4.1887902047863905
+```
