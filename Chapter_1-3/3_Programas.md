@@ -62,3 +62,19 @@ print(f'El área del triángulo es: {area_triangulo} metros cuadrados')
 ```
 Resp: El área del triángulo es: 7.5 metros cuadrados
 ```
+### Problema. Diseña un programa que, a partir del valor de los dos lados de un rectángulo (4 y 6 metros, respectivamente), muestre el valor de su perímetro (en metros) y el de su área (en metros cuadrados).
+
+```Python
+lado_menor = 4
+lado_mayor = 6
+
+perimetro = 2*lado_menor + 2*lado_mayor
+area = lado_menor * lado_mayor
+
+print(f'El perímetro es: {perimetro} metros.')
+print(f'El área es: {area} metros cuadrado.')
+```
+```
+Resp: El perímetro es: 20 metros.
+Resp: El área es: 24 metros cuadrado.
+```
