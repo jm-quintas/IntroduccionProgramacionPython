@@ -33,7 +33,7 @@ Resp: 6.283185307179586
 
 Si ejecutas ahora el programa aparecerá el resultado en la términal del cuadro inferior. En ese cuadro aparece la salida de toda sentencia ***print***.
 
-Diseña un programa que, a partir del valor del lado de un cuadrado (3 metros), muestre el valor de su perímetro (en metros) y el de su área (en metros cuadrados).
+### Problema. Diseña un programa que, a partir del valor del lado de un cuadrado (3 metros), muestre el valor de su perímetro (en metros) y el de su área (en metros cuadrados).
 
 ```Python
 lado = 3
@@ -47,4 +47,18 @@ print('El área es:', area, 'metros cuadrados')
 ```
 Resp: El perimetro es: 12 metros
 Resp: El área es: 9 metros cuadrados
+```
+
+### Problema. Diseña un programa que, a partir del valor de la base y de la altura de un triángulo (3 y 5 metros, respectivamente), muestre el valor de su área (en metros cuadrados).
+
+```Python
+base = 3
+altura = 5
+
+area_triangulo = (1/2) * base * altura
+
+print(f'El área del triángulo es: {area_triangulo} metros cuadrados')
+```
+```
+Resp: El área del triángulo es: 7.5 metros cuadrados
 ```
