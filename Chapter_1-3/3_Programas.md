@@ -115,4 +115,25 @@ Resp: 113.09733552923254
 
 Y si ahora quieres calcular el volumen para otro radio, vuelta a empezar: abre el fichero con el editor de texto, ve a la tercera línea, modifica el valor del radio y guarda el fichero.
 
+### Lectura de datos de teclado.
 
+Vamos a aprender a hacer que nuestro programa, cuando se ejecute, pida el valor del radio para el que vamos a efectuar los cálculos sin necesidad de editar el fichero de
+programa. Hay una función predefinida, ***input***, que hace lo siguiente: detiene la ejecución del programa y espera a que el usuario escriba un texto (el valor del radio, por ejemplo) y pulse la tecla de retorno de carro; en ese momento prosigue la ejecución y la función devuelve una cadena con el texto que tecleó el usuario.
+
+Si deseas que el radio sea un valor flotante, debes transformar la cadena devuelta por ***input*** en un dato de tipo flotante llamando a la función ***float***. La función ***float*** recibirá como argumento la cadena que devuelve ***input*** y proporcionará un número en coma flotante. (Recuerda, para cuando lo necesites, que existe otra función de conversión, ***int***, que devuelve un entero en lugar de un flotante.) Por otra parte, ***input*** es una función y, por tanto, el uso de los paréntesis que siguen a su nombre es obligatorio, incluso cuando no tenga argumentos.
+
+He aquí el nuevo programa:
+```Python
+from math import pi
+
+texto_leido = input('Introduce un valor:')
+radio = float(texto_leido)
+
+volumen = (4/3) * pi * radio**3
+
+print(volumen)
+```
+```
+Introduce un valor: 2
+Resp: 33.510321638291124
+```
