@@ -78,3 +78,7 @@ print(f'El área es: {area} metros cuadrado.')
 Resp: El perímetro es: 20 metros.
 Resp: El área es: 24 metros cuadrado.
 ```
+
+## Ejecución de programas desde la línea de ordenes Unix.
+
+Una vez has escrito un programa es posible ejecutarlo directamente, sin entrar en el entorno ***Visual Studio Code***. Si invocas al intérprete python seguido del nombre de un fichero desde la línea de ordenes Unix, no se iniciara una sesión con el intérprete interactivo, sino que se ejecutará el programa contenido en el fichero en cuestión. Por ejemplo, si ejecutamos la orden ***python nombre_programa.py*** en la línea de ordenes nos mostrará el resultado del programa ejecutado sin abrir el entorno interactivo.
