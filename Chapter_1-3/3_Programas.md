@@ -4,3 +4,13 @@ En este tema aprenderemos a introducir secuencias de expresiones y asignaciones 
 
 Puedes introducir expresiones en el entorno interactivo de ***Visual Studio Code***, del mismo modo que hemos hecho al ejecutar el intérprete python desde un terminal. No nos demoremos más y escribamos nuestro primer programa. En el ***menú Archivo*** hay una opción llamada ***Nuevo archivo***. Luego se abrirá una ventana donde editaremos el ***nombre*** del archivo y en la opción ***Guardar como*** guardaremos con extensión ***.py***.
 
+Observemos el siguiente programa:
+
+```Python
+from math import pi
+
+radio = 1
+perimetro = 2 * pi * radio
+
+perimetro
+```
