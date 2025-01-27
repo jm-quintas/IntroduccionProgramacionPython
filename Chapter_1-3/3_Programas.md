@@ -126,7 +126,7 @@ He aquí el nuevo programa:
 ```Python
 from math import pi
 
-texto_leido = input('Introduce un valor:')
+texto_leido = input()
 radio = float(texto_leido)
 
 volumen = (4/3) * pi * radio**3
@@ -134,6 +134,38 @@ volumen = (4/3) * pi * radio**3
 print(volumen)
 ```
 ```
-Introduce un valor: 2
-Resp: 33.510321638291124
+3
+Resp: 113.09733552923254
 ```
+
+Esta otra versión es más breve:
+```Python
+from math import pi
+
+radio = float(input())
+volumen = (4/3) * pi * radio**3
+
+print(volumen)
+```
+```
+4
+Resp: 268.082573106329
+```
+
+Al ejecutar el programa desde la línea de órdenes Unix, el ordenador parece quedar bloqueado. No lo esta: en realidad Python está solicitando una entrada de teclado y espera que se la proporcione el usuario. Si tecleas, por ejemplo, el número 3 y pulsas la tecla  de retorno de carro, Python responde imprimiendo en pantalla el valor 113.097335529. Puedes volver a ejecutar el programa y, en lugar de teclear el número 3, teclear cualquier otro valor; Python nos responderá con el valor del volumen de la esfera para un radio igual al valor que hayas tecleado. Pero el programa no es muy elegante, pués deja al ordenador bloqueado hasta que el usuario teclee una cantidad y no informa de qué es exactamente esa cantidad. Vamos a hacer que el programa indique, mediante un mensaje, qué dato desea que se teclee. La función ***input*** acepta un argumento: una cadena con el mensaje que debe mostrar. Modifica el programa para que quede así:
+
+```Python
+from math import pi
+
+radio = float(input('Dame el radio:'))
+
+volumen = (4/3) * pi * radio**3
+
+print(volumen)
+```
+```
+Dame el radio: 3
+Resp: 113.09733552923254
+```
+
+Ahora, cada vez que lo ejecutes, mostrará por pantalla el mensaje ***Dame el radio:*** y detendrá su ejecución hasta que introduzcas un número y pulses el retorno de carro.
