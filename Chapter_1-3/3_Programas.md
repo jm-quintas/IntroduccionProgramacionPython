@@ -17,5 +17,5 @@ perimetro
 
 La opción ***Ejecutar*** hubicado en el ***icono play*** te permite ejecutar el programa: selecciónala. ¿Qué ocurre? Nada. Aunque el programa se ha ejecutado, no vemos el resultado por ninguna parte. Analicemos el programa paso a paso. La primera línea de ***miprograma.py*** no produce salida alguna: se limita a ***importar la variable pi***. La segunda línea esta en blanco. Las líneas en blanco sólo sirven para hacer más legible el programa separando diferentes partes del mismo. La tercera ***define una variable llamada radio y le asigna el valor 1***, y ya vimos que las asignaciones no producen un resultado visible por pantalla. La cuarta línea también es una asignación. La quinta línea esta en blanco y la última es una expresión (aunque muy sencilla).
 
-la evaluación de expresiones no produce salida por pantalla en un programa. Entonces ¿cómo veremos los resultados que producen nuestros programas? Hemos de aprender a utilizar una nueva sentencia: ***print*** (en inglés, ***imprimir***). En principio, se usa de este modo: ***print***(expresión).
+la evaluación de expresiones no produce salida por pantalla en un programa. Entonces ¿cómo veremos los resultados que producen nuestros programas? Hemos de aprender a utilizar una nueva sentencia: ***print*** (en inglés, ***imprimir***). En principio, se usa de este modo: ***print*** (expresión).
 
