@@ -42,7 +42,9 @@ perimetro = 4 * lado
 area = lado * lado
 
 print('El perimetro es:', perimetro, 'metros')
+print('El área es:', area, 'metros cuadrados')
 ```
 ```
 Resp: El perimetro es: 12 metros
+Resp: El área es: 9 metros cuadrados
 ```
