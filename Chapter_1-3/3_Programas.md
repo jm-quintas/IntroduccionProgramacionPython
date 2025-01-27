@@ -30,3 +30,5 @@ print(perimetro)
 ```
 Resp: 6.283185307179586
 ```
+
+Si ejecutas ahora el programa aparecerá el resultado en la términal del cuadro inferior. En ese cuadro aparece la salida de toda sentencia ***print***.
