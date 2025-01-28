@@ -224,3 +224,23 @@ El área del triángulo es: 500.0 metros al cuadrado
 
 ## Más sobre la sentencia ***print***.
 
+Las cadenas pueden usarse también para mostrar textos por pantalla en cualquier momento a través de sentencias ***print***.
+
+```Python
+from math import pi
+
+print('Programa para el cálculo del volumen de una esfera.')
+
+radio = float(input('Dame el un valor para el radio: '))
+
+volumen_esfera = (4/3)*pi*radio**3
+
+print(f'El volumen de la esfera es: {volumen_esfera} metros cubicos')
+print('Gracias por utilizar este programa')
+```
+```
+Programa para el cálculo del volumen de una esfera.
+Dame el un valor para el radio: 2
+El volumen de la esfera es: 33.510321638291124 metros cubicos
+Gracias por utilizar este programa
+```
