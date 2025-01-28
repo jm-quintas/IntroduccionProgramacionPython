@@ -169,3 +169,20 @@ Resp: 113.09733552923254
 ```
 
 Ahora, cada vez que lo ejecutes, mostrará por pantalla el mensaje ***Dame el radio:*** y detendrá su ejecución hasta que introduzcas un número y pulses el retorno de carro.
+
+### Problema. Diseña un programa que pida el valor del lado de un cuadrado y muestre el valor de su perímetro y el de su área.
+
+```Python
+lado = float(input('Dame un valor para el lado: '))
+
+perimetro_cuadrado = 4 * lado
+area_cuadrado = round(lado**2, 2)
+
+print(f'El perímetro del cuadrado es: {perimetro_cuadrado} metros')
+print(f'El área del cuadrado es: {area_cuadrado} metros al cuadrado')
+```
+```
+Dame un valor para el lado: 1.1
+El perímetro del cuadrado es: 4.4 metros
+El área del cuadrado es: 1.21 metros al cuadrado
+```
