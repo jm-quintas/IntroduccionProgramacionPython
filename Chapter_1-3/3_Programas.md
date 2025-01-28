@@ -186,3 +186,22 @@ Dame un valor para el lado: 1.1
 El perímetro del cuadrado es: 4.4 metros
 El área del cuadrado es: 1.21 metros al cuadrado
 ```
+
+### Problema. Diseña un programa que pida el valor de los dos lados de un rectángulo y muestre el valor de su perímetro y el de su área.
+
+```Python
+lado_menor = float(input('Dame un valor para el lado menor: '))
+lado_mayor = float(input('Dame un valor para el lado mayor: '))
+
+perimetro_rectangulo = 2*lado_menor + 2*lado_mayor
+area_rectangulo = (lado_menor*lado_mayor)
+
+print(f'El perímetro del rectángulo es: {perimetro_rectangulo} metros')
+print(f'El área del rectángulo es: {area_rectangulo} metros al cuadrado')
+```
+```
+Dame un valor para el lado menor: 1
+Dame un valor para el lado mayor: 5
+El perímetro del rectángulo es: 12.0 metros
+El área del rectángulo es: 5.0 metros al cuadrado
+```
