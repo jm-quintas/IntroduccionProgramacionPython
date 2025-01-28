@@ -205,3 +205,19 @@ Dame un valor para el lado mayor: 5
 El perímetro del rectángulo es: 12.0 metros
 El área del rectángulo es: 5.0 metros al cuadrado
 ```
+
+### Programa. Diseña un programa que pida el valor de la base y la altura de un triángulo y muestre el valor de su área.
+
+```Python
+base = float(input('Dame un valor de la base: '))
+altura = float(input('Dame un valor para la altura '))
+
+area_triangulo = (1/2)*base*altura
+
+print(f'El área del triángulo es: {area_triangulo} metros al cuadrado')
+```
+```
+Dame un valor de la base: 10
+Dame un valor para la altura: 100
+El área del triángulo es: 500.0 metros al cuadrado
+```
