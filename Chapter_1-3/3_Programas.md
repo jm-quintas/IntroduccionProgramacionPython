@@ -221,3 +221,6 @@ Dame un valor de la base: 10
 Dame un valor para la altura: 100
 El área del triángulo es: 500.0 metros al cuadrado
 ```
+
+## Más sobre la sentencia ***print***.
+
