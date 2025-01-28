@@ -49,6 +49,9 @@ Resp: El perimetro es: 12 metros
 Resp: El área es: 9 metros cuadrados
 ```
 
+Una sentencia ***print*** puede mostrar más de un resultado en una misma línea: basta con separar con comas todos los valores que deseamos mostrar. Cada una de las comas
+se traduce en un espacio de separación.
+
 ### Problema. Diseña un programa que, a partir del valor de la base y de la altura de un triángulo (3 y 5 metros, respectivamente), muestre el valor de su área (en metros cuadrados).
 
 ```Python
@@ -78,6 +81,8 @@ print(f'El área es: {area} metros cuadrado.')
 Resp: El perímetro es: 20 metros.
 Resp: El área es: 24 metros cuadrado.
 ```
+
+Como se observa en el ejemplo anterior, dentro de la sentencia ***print*** se puede utilizar una ***f-string*** que es una cadena literal que tiene como prefijo la letra **"f"**. Estas cadenas pueden contener campos que se pueden evaluar en tiempo de ejecución. Estos campos se encuentran entre ***llaves {}***.
 
 ## Ejecución de programas desde la línea de ordenes Unix.
 
