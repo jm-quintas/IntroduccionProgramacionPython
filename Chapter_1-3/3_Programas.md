@@ -252,3 +252,22 @@ Gracias por utilizar este programa
 
 #### Problema. El área A de un triángulo se puede calcular a partir del valor de dos de sus lados, a y b, y del ángulo θ que estos forman entre sí con la fórmula A = (1/2) ab sin(θ). Diseña un programa que pida al usuario el valor de los dos lados (en metros), el ángulo que estos forman (en grados), y muestre el valor del área. Ten en cuenta que la función *sin* de Python trabaja en radianes, así que el ángulo que leas en grados deberas pasarlo a radianes sabiendo que π radianes son 180 grados. Prueba que has hecho bien el programa introduciendo los siguientes datos: a = 1, b = 2, θ = 30; el resultado es 0.5.
 
+```Python
+from math import sin, pi
+
+a = float(input('Dame un valor para el lado a: '))
+b = float(input('Dame un valor para el lado b: '))
+teta = float(input('Dame un valor para el ángulo: '))
+
+teta2 = (pi * teta)/180
+
+area_triangulo = round((1/2)*a*b*sin(teta2), 1)
+
+print(f'El área del triángulo es: {area_triangulo} metros cuadrados')
+```
+```
+Dame un valor para el lado a: 1
+Dame un valor para el lado b: 2
+Dame un valor para el ángulo: 30
+El área del triángulo es: 0.5 metros cuadrados
+```
