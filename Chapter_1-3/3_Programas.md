@@ -291,3 +291,28 @@ Dame un valor para el radio: 2
 Volumen de la esfera: 33.510321638291124 metros cubicos
 ```
 Existen muchos otros ***parámetros*** para la función ***print*** que son interesantes estudiar. 
+
+## Legibilidad de los programas.
+
+Los programas que estamos diseñando son bastante sencillos. No ocupan más allá de  tres o cuatro líneas y siempre presentan una misma estructura:
+
+- Piden el valor de una serie de datos (mediante ***input***).
+- Efectuan unos cálculos con ellos.
+- Muestran el resultado de los cálculos (con ***print***).
+
+Estos programas son faciles de leer y, en cierto modo, autoexplicativos.
+
+### Algunas claves para aumentar la legibilidad.
+
+- Utiliza identificadores representativos y tan largos como sea necesario.
+
+- Debes diferenciar claramente zonas distintas del programa (lectura de datos, realización de cálculos y visualización de resultados) y llega a usar marcas visuales como las líneas en blanco para separarlas (en pocas palabras, planificar la estructura del programa).
+
+-  Utilizar formas de expresión de los cálculos que son estándar.
+
+-  Emplear mensajes de entrada/salida muy informativos.
+
+### Comentarios.
+
+Un modo de aumentar la legibilidad de un programa consiste en ***intercalar comentarios*** que expliquen su finalidad o que aclaren sus pasajes mas oscuros. Como esos comentarios sólo tienen por objeto facilitar la legibilidad de los programas para los programadores, pueden escribirse en el idioma que desees. ***Cuando el intérprete
+Python ve un comentario no hace nada con él: lo omite***. Los comentarios en Python se inician con el símbolo **#** (que se lee ***almohadilla***): todo texto desde la almohadilla hasta el final de la línea se considera comentario y, en consecuencia, es omitido por Python.
