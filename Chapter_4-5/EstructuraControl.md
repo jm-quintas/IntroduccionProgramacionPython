@@ -119,3 +119,16 @@ if numero_flotante < 0:
 Introduce un número: -1
 El número es negativo
 ```
+
+### Tarea 2. Diseña un programa que lea un número flotante por teclado y muestre por pantalla el mensaje "El número es positivo" sólo si el número es mayor o igual que cero.
+
+```Python
+numero_flotante = float(input("Introduce un número: "))
+
+if numero_flotante => 0:
+    print("El número es positivo")
+```
+```
+Introduce un número: 2
+El número es positivo
+```
