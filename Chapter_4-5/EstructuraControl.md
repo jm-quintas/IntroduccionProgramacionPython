@@ -52,5 +52,23 @@ if a != 0:
     print("Solución: ", x)
 ```
 
-Analicemos detenidamente las líneas 4, 5 y 6. En la línea 4 aparece la sentencia condicional ***if*** seguida de lo que, según hemos dicho, debe ser una condición. La condición se lee fácilmente si sabemos qué **!=** significa ***es distinto de***. Así pues, la línea 4 se lee si ***a*** es distinto de 0. La línea que empieza con ***if*** debe finalizar obligatoriamente con dos puntos **:**. Fíjate en que las dos siguientes líneas se escriben más a la derecha. Para destacar esta característica, hemos dibujados dos líneas verticales que marcan el nivel al que apareció el ***if***. Decimos que esta línea presentan mayor indentación o sangrado que la línea que empieza con ***if***. Esta mayor indentación indica que la ejecución de estas dos líneas depende de que se satisfaga la condición ***a*** **!=** 0: sólo cuando ésta es cierta se ejecutan las líneas de mayor sangrado. Así pues, cuando ***a*** valga 0, esas líneas no se ejecutarán , evitando de este modo el error de división por cero.
+Analicemos detenidamente las líneas 4, 5 y 6. En la línea 4 aparece la sentencia condicional ***if*** seguida de lo que, según hemos dicho, debe ser una condición. La condición se lee fácilmente si sabemos qué **!=** significa ***es distinto de***. Así pues, la línea 4 se lee si ***a*** es distinto de 0. La línea que empieza con ***if*** debe finalizar obligatoriamente con dos puntos **:**. Fíjate en que las dos siguientes líneas se escriben más a la derecha. Decimos que esta línea presentan mayor indentación o sangrado que la línea que empieza con ***if***. Esta mayor indentación indica que la ejecución de estas dos líneas depende de que se satisfaga la condición ***a*** **!=** 0: sólo cuando ésta es cierta se ejecutan las líneas de mayor sangrado. Así pues, cuando ***a*** valga 0, esas líneas no se ejecutarán , evitando de este modo el error de división por cero.
 
+Veamos qué hace este otro programa:
+
+```Python
+a = float(input("Valor de a: "))
+b = float(input("Valor de b: "))
+
+if a != 0:
+    x = -b/a
+    print("Solución: ", x)
+if a == 0:
+    print("La ecuación no tiene solución")
+```
+```
+Valor de a: 0
+Valor de b: 2
+
+La ecuación no tiene solución
+```
