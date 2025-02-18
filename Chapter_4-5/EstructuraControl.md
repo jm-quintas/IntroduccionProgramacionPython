@@ -106,3 +106,19 @@ if a == 0:
 ``` 
 
 Fíjate en la indentación de las líneas. Las líneas 8–11 estan más a la derecha que la línea 7. Ninguna de ellas se ejecutará a menos que la condición de la línea 7 se satisfaga. Más aún, la línea 9 esta más a la derecha que la línea 8, por lo que su ejecución depende del resultado de la condición de dicha línea; y la ejecución de la línea 11 depende de la satisfacción de la condición de la línea 10. Recuerda que en ***los programas Python la indentación determina de qué sentencia depende cada bloque de sentencias***. Las estructuras de control pueden anidarse, es decir, aparecer unas ***dentro*** de otras.
+
+### Tarea 1. Diseña un programa que lea un número flotante por teclado y muestre por pantalla el mensaje "El número es negativo" sólo si el número es menor que cero.
+
+```Python
+numero_flotante = float(input("Introduce un número: "))
+
+if numero_flotante < 0:
+    print("El número es negativo")
+
+if numero_flotante >= 0:
+    print("El número es positivo")
+```
+```
+Introduce un número: -1
+El número es negativo
+```
