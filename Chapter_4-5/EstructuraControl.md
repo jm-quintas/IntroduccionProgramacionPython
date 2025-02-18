@@ -122,3 +122,7 @@ if numero_flotante >= 0:
 Introduce un número: -1
 El número es negativo
 ```
+```
+Introduce un número: 2
+El número es positivo
+```
