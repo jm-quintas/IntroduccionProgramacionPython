@@ -40,3 +40,6 @@ Expresado de otra manera:
 if condición:
     # Código a ejecutar si la condición es verdadera
 ```
+
+En inglés ***if*** significa **si**. En nuestro caso, deseamos detectar la condición ***a no vale 0˃˃*** y, sólo en ese caso, ejecutar las últimas líneas del programa:
+
