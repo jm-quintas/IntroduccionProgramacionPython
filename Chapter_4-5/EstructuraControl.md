@@ -34,3 +34,9 @@ acción
 acción
 ```
 
+Expresado de otra manera:
+
+```Python
+if condición:
+    # Código a ejecutar si la condición es verdadera
+```
