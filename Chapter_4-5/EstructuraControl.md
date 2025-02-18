@@ -84,3 +84,23 @@ Las líneas 7 y 8 empiezan, nuevamente, con una sentencia condicional. En lugar 
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_4-5/img/Captura%20desde%202025-02-18%2011-20-36.png)
 
 Este tipo de análisis, en el que seguimos el curso del programa línea a línea para una configuración dada de los datos de entrada, recibe el nombre de ***traza de ejecución***. Las ***trazas de ejecución*** son de gran ayuda para comprender qué hace un programa y localizar así posibles errores.
+
+## Sentencias condicionales anidadas.
+
+Vamos a realizar un último refinamiento del programa. De momento, cuando ***a*** es 0 el programa muestra un mensaje que indica que la ecuación no tiene solución. Bueno,
+nosotros sabemos que esto no es cierto: sí, además, ***b*** vale 0, entonces la ecuación tiene infinitas soluciones. Para que el programa dé una información correcta vamos a modificarlo de modo que, cuando a sea 0, muestre un mensaje u otro en función del valor de ***b***:
+
+```Python
+a = float(input("Valor de a: ")
+b = float(input("Valor de b: ")
+
+if a != 0:
+    x = -b/a
+    print("Solución: ", x)
+
+if a == 0:
+    if b != 0:
+        print("La ecuación no tiene solución")
+    if b == 0:
+        print("La ecuación tiene infinitas soluciones")
+``` 
