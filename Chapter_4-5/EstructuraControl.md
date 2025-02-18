@@ -72,3 +72,5 @@ Valor de b: 2
 
 La ecuación no tiene solución
 ```
+
+Las líneas 7 y 8 empiezan, nuevamente, con una sentencia condicional. En lugar de **!=**, el operador de comparación utilizado es **==**. La sentencia se lee ˂˂si a es igual a 0.
