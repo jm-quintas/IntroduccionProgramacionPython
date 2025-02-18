@@ -68,9 +68,17 @@ if a == 0:
 ```
 ```
 Valor de a: 0
-Valor de b: 2
+Valor de b: 3
 
 La ecuación no tiene solución
 ```
 
+```
+Valor de a: 1
+Valor de b: -1
+Solución: 1
+```
+
 Las líneas 7 y 8 empiezan, nuevamente, con una sentencia condicional. En lugar de **!=**, el operador de comparación utilizado es **==**. La sentencia se lee si ***a*** es igual a 0.
+
+![]()
