@@ -315,4 +315,4 @@ Estos programas son faciles de leer y, en cierto modo, autoexplicativos.
 ### Comentarios.
 
 Un modo de aumentar la legibilidad de un programa consiste en ***intercalar comentarios*** que expliquen su finalidad o que aclaren sus pasajes mas oscuros. Como esos comentarios sólo tienen por objeto facilitar la legibilidad de los programas para los programadores, pueden escribirse en el idioma que desees. ***Cuando el intérprete
-Python ve un comentario no hace nada con él: lo omite***. Los comentarios en Python se inician con el símbolo **#** (que se lee ***almohadilla***): todo texto desde la almohadilla hasta el final de la línea se considera comentario y, en consecuencia, es omitido por Python.
+Python ve un comentario no hace nada con él: lo omite***. Los comentarios en Python se inician con el símbolo **#** (que se lee ***almohadilla***): todo texto desde la almohadilla hasta el final de la línea se considera comentario y, en consecuencia, es omitido por Python. También, podemos utilizar las triples comillas dobles **"""** patra encerrar varias líneas de comentarios.
