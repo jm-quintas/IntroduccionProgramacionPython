@@ -17,3 +17,20 @@ No obstante, es posible alterar el flujo de ejecución de los programas para hac
 2. Tomen decisiones a partir de los datos y/o resultados intermedios y, en función de éstas, ejecuten ciertas sentencias más de una vez.
 
 ***El primer tipo de alteración del flujo de control se efectua con sentencias condicionales o de selección y el segundo tipo con sentencias iterativas o de repetición***. Las sentencias que permiten alterar el flujo de ejecución se engloban en las denominadas estructuras de control de flujo (que abreviamos con el término ***estructuras de control***).
+
+## Sentencias condicionales.
+
+Los lenguajes de programación convencionales presentan una sentencia especial cuyo significado es:
+
+***Al llegar a este punto, ejecuta esta(s) acción(es) sólo si esta condición es cierta***
+
+Este tipo de sentencia se denomina condicional o de selección y en Python es de la siguiente forma:
+
+```Python
+if condición:
+acción
+acción
+...
+acción
+```
+
