@@ -132,3 +132,25 @@ if numero_flotante => 0:
 Introduce un número: 2
 El número es positivo
 ```
+
+### Tarea 3. Diseña un programa que, dado un número entero, muestre por pantalla el mensaje "*El número es par*" cuando el número sea par y el mensaje "*El número es impar*" cuando sea impar.
+
+```Python
+numero = float(input("Introduce un número: "))
+
+num_resultado = numero % 2
+
+if num_resultado == 0:
+    print("El número es par") 
+
+if num_resultado != 0:
+    print("El número es impar")
+```
+```
+Introduce un número: 10
+El número es par
+```
+```
+Introduce un número: 15
+El número es impar
+```
