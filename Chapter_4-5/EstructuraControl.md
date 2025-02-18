@@ -82,3 +82,5 @@ Solución: 1
 Las líneas 7 y 8 empiezan, nuevamente, con una sentencia condicional. En lugar de **!=**, el operador de comparación utilizado es **==**. La sentencia se lee si ***a*** es igual a 0.
 
 ![](https://github.com/jm-quintas/IntroduccionProgramacionPython/blob/main/Chapter_4-5/img/Captura%20desde%202025-02-18%2011-20-36.png)
+
+Este tipo de análisis, en el que seguimos el curso del programa línea a línea para una configuración dada de los datos de entrada, recibe el nombre de ***traza de ejecución***. Las ***trazas de ejecución*** son de gran ayuda para comprender qué hace un programa y localizar así posibles errores.
