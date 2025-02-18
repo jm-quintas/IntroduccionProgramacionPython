@@ -114,15 +114,8 @@ numero_flotante = float(input("Introduce un número: "))
 
 if numero_flotante < 0:
     print("El número es negativo")
-
-if numero_flotante >= 0:
-    print("El número es positivo")
 ```
 ```
 Introduce un número: -1
 El número es negativo
-```
-```
-Introduce un número: 2
-El número es positivo
 ```
