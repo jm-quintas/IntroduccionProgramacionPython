@@ -326,3 +326,28 @@ Esto es un comentario....
 de varias líneas....
 """
 ```
+
+He aquí un programa con comentarios:
+
+```Python
+# Programa: rectangulo.py
+"""
+Propósito: calcula el perímetro y el área de un rectángulo a partir de su
+altura y anchura.
+
+Autor: Nico y Lau
+Fecha: 1/1/2001
+"""
+
+# Registro de datos en metros:
+altura = float(input("Valor de la altura (en metro): "))
+ancho = float(input("Valor del ancho (en metro): "))
+
+# Cálculo del área y del perímetro:
+area = altura*ancho
+perimetro = 2*altura + 2*ancho
+
+# Resultado por pantalla:
+print("El area del rectangulo en metros es: ", area)
+print("El perimetro del rectangulo en metro es: ", perimetro)
+```
