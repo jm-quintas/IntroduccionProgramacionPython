@@ -348,6 +348,16 @@ area = altura*ancho
 perimetro = 2*altura + 2*ancho
 
 # Resultado por pantalla:
-print("El area del rectangulo en metros es: ", area)
-print("El perimetro del rectangulo en metro es: ", perimetro)
+print("El área del rectángulo en metros es: ", area)
+print("El perímetro del rectangulo en metro es: ", perimetro)
 ```
+```
+Valor de la altura (en metros): 1
+Valor del ancho (en metro): 1
+```
+```
+El área del rectángulo en metros es: 1.0  
+El perímetro del rectángulo en metro es: 4.0  
+```
+Es buena práctica que **comentes** tus programas. Pero ten presente que no hay reglas fijas que indiquen cuando, donde y cómo comentar los programas: las que acabes
+adoptando formaran parte de tu estilo de programación.
